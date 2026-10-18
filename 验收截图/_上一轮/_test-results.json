@@ -1,0 +1,257 @@
+[
+  {
+    "name": "链接 / -> css/base.css",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 / -> css/index.css",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 / -> ./html/home.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> ../css/base.css",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> ../css/home.css",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> detail.html#music",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> detail.html#reading",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> detail.html#sport",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> detail.html#photo",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> ../index.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> home.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> detail.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/home.html -> message.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> ../css/base.css",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> ../css/detail.css",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> ../img/yulin/玉林美食介绍.mp4",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> ../img/yulin/玉林游玩攻略.mp4",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> ../img/yulin/玉林介绍视频.mp4",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> ../img/yulin/玉林景点介绍.mp4",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> ../img/yulin/玉林介绍视频.mp4",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> ../index.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> home.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> detail.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/detail.html -> message.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/message.html -> ../css/base.css",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/message.html -> ../css/message.css",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/message.html -> ../index.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/message.html -> home.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/message.html -> detail.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "链接 /html/message.html -> message.html",
+    "pass": true,
+    "detail": 200
+  },
+  {
+    "name": "封面按钮文案与链接",
+    "pass": true,
+    "detail": "{\"t\":\"走进玉林\",\"href\":\"./html/home.html\",\"bg\":\"url(\\\"http://127.0.0.1:8000/img/yulin/gallery-lianlita.jpg\\\")\"}"
+  },
+  {
+    "name": "封面圆形图为玉林实景",
+    "pass": true,
+    "detail": "url(\"http://127.0.0.1:8000/img/yulin/gallery-lianlita.jpg\")"
+  },
+  {
+    "name": "四个入口标签与锚点",
+    "pass": true,
+    "detail": "[{\"href\":\"detail.html#music\",\"label\":\"寻味玉林\",\"w\":187.1875,\"h\":288,\"top\":748.796875},{\"href\":\"detail.html#reading\",\"label\":\"人文寻踪\",\"w\":144,\"h\":129.59375,\"top\":604.796875},{\"href\":\"detail.html#sport\",\"label\":\"山水漫游\",\"w\":230.390625,\"h\":259.1875,\"top\":748.796875},{\"href\":\"detail.html#photo\",\"label\":\"光影玉林\",\"w\":201.59375,\"h\":259.1875,\"top\":734.390625}]"
+  },
+  {
+    "name": "入口尺寸沿用原版比例",
+    "pass": true,
+    "detail": "[{\"href\":\"detail.html#music\",\"label\":\"寻味玉林\",\"w\":187.1875,\"h\":288,\"top\":748.796875},{\"href\":\"detail.html#reading\",\"label\":\"人文寻踪\",\"w\":144,\"h\":129.59375,\"top\":604.796875},{\"href\":\"detail.html#sport\",\"label\":\"山水漫游\",\"w\":230.390625,\"h\":259.1875,\"top\":748.796875},{\"href\":\"detail.html#photo\",\"label\":\"光影玉林\",\"w\":201.59375,\"h\":259.1875,\"top\":734.390625}]"
+  },
+  {
+    "name": "漫游页导航高亮",
+    "pass": true,
+    "detail": "漫游玉林"
+  },
+  {
+    "name": "详情页四个锚点存在",
+    "pass": true,
+    "detail": "{\"ids\":[true,true,true,true],\"nav\":[\"#music\",\"#reading\",\"#sport\",\"#photo\"],\"active\":\"玉林风物\",\"overflow\":0,\"inner\":390}"
+  },
+  {
+    "name": "详情页页内导航",
+    "pass": true,
+    "detail": "{\"ids\":[true,true,true,true],\"nav\":[\"#music\",\"#reading\",\"#sport\",\"#photo\"],\"active\":\"玉林风物\",\"overflow\":0,\"inner\":390}"
+  },
+  {
+    "name": "详情页导航高亮",
+    "pass": true,
+    "detail": "玉林风物"
+  },
+  {
+    "name": "手机端无横向溢出",
+    "pass": true,
+    "detail": "{\"ids\":[true,true,true,true],\"nav\":[\"#music\",\"#reading\",\"#sport\",\"#photo\"],\"active\":\"玉林风物\",\"overflow\":0,\"inner\":390}"
+  },
+  {
+    "name": "手机端相册点按展开",
+    "pass": true,
+    "detail": "{\"active\":true,\"activeCount\":1,\"caption\":\"当前：容县真武阁\",\"count\":9}"
+  },
+  {
+    "name": "相册地点说明随点按更新",
+    "pass": true,
+    "detail": "当前：容县真武阁"
+  },
+  {
+    "name": "本地视频可播放、暂停、拖动",
+    "pass": true,
+    "detail": "{\"duration\":127.569773,\"t1\":0.561993,\"t2\":63.784886,\"played\":true,\"seeked\":true}"
+  },
+  {
+    "name": "留言提交后显示",
+    "pass": true,
+    "detail": "{\"count\":1,\"hint\":\"留言已保存在当前浏览器。\",\"stored\":1}"
+  },
+  {
+    "name": "心愿提交后显示",
+    "pass": true,
+    "detail": "{\"count\":1,\"stored\":1,\"plan\":\"\\\"2026-11-05\\\"\",\"hasWish\":true}"
+  },
+  {
+    "name": "心愿日期关联日历",
+    "pass": true,
+    "detail": "{\"count\":1,\"stored\":1,\"plan\":\"\\\"2026-11-05\\\"\",\"hasWish\":true}"
+  },
+  {
+    "name": "日历月份切换",
+    "pass": true,
+    "detail": "{\"title\":\"2026年11月\",\"next\":\"2026年12月\",\"back\":\"2026年11月\",\"selected\":true,\"input\":\"2026-11-18\",\"plan\":\"\\\"2026-11-18\\\"\",\"note\":\"已把 2026-11-18 记为出游计划，可以继续补充上面的心愿。\"}"
+  },
+  {
+    "name": "日历选日期并写入心愿日期",
+    "pass": true,
+    "detail": "{\"title\":\"2026年11月\",\"next\":\"2026年12月\",\"back\":\"2026年11月\",\"selected\":true,\"input\":\"2026-11-18\",\"plan\":\"\\\"2026-11-18\\\"\",\"note\":\"已把 2026-11-18 记为出游计划，可以继续补充上面的心愿。\"}"
+  },
+  {
+    "name": "刷新后留言/心愿/日期仍保留",
+    "pass": true,
+    "detail": "{\"messages\":1,\"wishes\":1,\"date\":\"2026-11-18\",\"selected\":true}"
+  },
+  {
+    "name": "留言与心愿可删除",
+    "pass": true,
+    "detail": "{\"messages\":0,\"wishes\":0,\"storedM\":0}"
+  },
+  {
+    "name": "手机端导航可展开/收起",
+    "pass": true,
+    "detail": "{\"before\":\"none\",\"opened\":true,\"closed\":true,\"links\":[\"../index.html\",\"home.html\",\"detail.html\",\"message.html\"]}"
+  },
+  {
+    "name": "手机端导航链接正确",
+    "pass": true,
+    "detail": "{\"before\":\"none\",\"opened\":true,\"closed\":true,\"links\":[\"../index.html\",\"home.html\",\"detail.html\",\"message.html\"]}"
+  }
+]

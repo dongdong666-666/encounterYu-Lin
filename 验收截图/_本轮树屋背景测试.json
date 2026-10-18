@@ -1,0 +1,72 @@
+{
+  "round": "2026-10-18 message background",
+  "total": 13,
+  "passed": 13,
+  "items": [
+    {
+      "name": "树屋背景为五彩田园实景",
+      "pass": true,
+      "detail": "linear-gradient(rgba(249, 245, 233, 0.74), rgba(249, 245, 233, 0.74)), url(\"http://127.0.0.1:8000/img/yulin/wucaitianyuan-01.jpg\")"
+    },
+    {
+      "name": "背景不重复且按比例 cover",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "面板为实色浅绿",
+      "pass": true,
+      "detail": "{\"bg\":\"linear-gradient(rgba(249, 245, 233, 0.74), rgba(249, 245, 233, 0.74)), url(\\\"http://127.0.0.1:8000/img/yulin/wucaitianyuan-01.jpg\\\")\",\"attach\":\"fixed, fixed\",\"header\":\"rgb(247, 255, 242)\",\"p1\":\"rgb(247, 255, 242)\",\"p2\":\"rgb(247, 255, 242)\",\"p3\":\"rgb(247, 255, 242)\",\"input\":\"rgb(255, 255, 255)\",\"w\":1425,\"inner\":1440}"
+    },
+    {
+      "name": "电脑端无横向溢出",
+      "pass": true,
+      "detail": "{\"w\":1425,\"inner\":1440}"
+    },
+    {
+      "name": "背景图片 HTTP 200",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "留言提交后显示并写入",
+      "pass": true,
+      "detail": "{\"msg\":1,\"wish\":1,\"m\":1,\"w\":1,\"date\":\"2026-12-06\",\"title\":\"2026年12月\"}"
+    },
+    {
+      "name": "心愿提交后显示并写入",
+      "pass": true,
+      "detail": "{\"msg\":1,\"wish\":1,\"m\":1,\"w\":1,\"date\":\"2026-12-06\",\"title\":\"2026年12月\"}"
+    },
+    {
+      "name": "日历日期选择与心愿日期同步",
+      "pass": true,
+      "detail": "{\"selected\":true,\"date\":\"2026-12-10\",\"note\":\"已把 2026-12-10 记为出游计划，可以继续补充上面的心愿。\",\"plan\":\"\\\"2026-12-10\\\"\"}"
+    },
+    {
+      "name": "刷新后留言/心愿/日期仍保存",
+      "pass": true,
+      "detail": "{\"msg\":1,\"wish\":1,\"date\":\"2026-12-10\",\"selected\":true}"
+    },
+    {
+      "name": "测试后恢复原有本地数据",
+      "pass": true,
+      "detail": "{\"before\":\"{\\\"m\\\":null,\\\"w\\\":null,\\\"p\\\":null}\",\"after\":\"{\\\"m\\\":null,\\\"w\\\":null,\\\"p\\\":null}\"}"
+    },
+    {
+      "name": "树屋无脚本异常",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "手机端无横向溢出",
+      "pass": true,
+      "detail": "{\"w\":390,\"inner\":390,\"h\":2403,\"bg\":\"linear-gradient(rgba(249, 245, 233, 0.74), rgba(249, 245, 233, 0.74)), url(\\\"http://127.0.0.1:8000/img/yulin/wucaitianyuan-01.jpg\\\")\",\"header\":\"rgb(247, 255, 242)\"}"
+    },
+    {
+      "name": "手机端背景与面板",
+      "pass": true,
+      "detail": "{\"bg\":\"linear-gradient(rgba(249, 245, 233, 0.74), rgba(249, 245, 233, 0.74)), url(\\\"http://127.0.0.1:8000/im\",\"header\":\"rgb(247, 255, 242)\"}"
+    }
+  ]
+}

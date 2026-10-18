@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="1500" viewBox="0 0 780 1500" role="img" aria-label="玉林手绘漫游示意图手机版：沿小路从青山云海走到真武阁、米粉摊、民俗戏台和照片取景框">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf6e4"/>
+      <stop offset="0.55" stop-color="#eef2da"/>
+      <stop offset="1" stop-color="#dfeacd"/>
+    </linearGradient>
+    <linearGradient id="farHill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c5dab8"/>
+      <stop offset="1" stop-color="#a9c79c"/>
+    </linearGradient>
+    <linearGradient id="midHill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9cb98"/>
+      <stop offset="1" stop-color="#8bb47f"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9e2d8"/>
+      <stop offset="1" stop-color="#a9d0c5"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8614f"/>
+      <stop offset="1" stop-color="#93453a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3b45c"/>
+      <stop offset="1" stop-color="#c9903d"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e7ac"/>
+      <stop offset="1" stop-color="#b9d48a"/>
+    </linearGradient>
+    <radialGradient id="sunGlow">
+      <stop offset="0" stop-color="#f7dda3" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f7dda3" stop-opacity="0"/>
+    </radialGradient>
+    <g id="cloud">
+      <path d="M0,0 Q18,-26 48,-18 Q66,-40 96,-22 Q124,-30 138,-6 Q160,-2 158,18 Q156,34 132,36 L18,36 Q-6,34 -6,18 Q-6,4 0,0 Z" fill="#fffdf3"/>
+    </g>
+    <g id="tree">
+      <path d="M0,0 C-8,-38 -10,-72 -2,-108" stroke="#8a6a4d" stroke-width="13" fill="none" stroke-linecap="round"/>
+      <path d="M-2,-70 C-24,-84 -38,-96 -44,-112 M-4,-86 C14,-98 28,-108 34,-124" stroke="#8a6a4d" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <circle cx="-32" cy="-124" r="34" fill="#7fae72" opacity="0.95"/>
+      <circle cx="18" cy="-138" r="42" fill="#8fbc7f" opacity="0.95"/>
+      <circle cx="46" cy="-102" r="30" fill="#76a56c" opacity="0.95"/>
+      <circle cx="-8" cy="-92" r="36" fill="#86b478" opacity="0.95"/>
+      <circle cx="-52" cy="-92" r="24" fill="#79a96e" opacity="0.95"/>
+    </g>
+    <g id="lotusPad">
+      <ellipse cx="0" cy="0" rx="22" ry="9" fill="#8bbf8a" opacity="0.9"/>
+      <path d="M-22,0 Q0,-7 22,0" stroke="#6f9f6e" stroke-width="1.5" fill="none"/>
+    </g>
+    <g id="lotus">
+      <path d="M0,0 C-7,-9 -7,-18 0,-24 C7,-18 7,-9 0,0 Z" fill="#f2b7c3"/>
+      <path d="M0,0 C-12,-4 -17,-11 -15,-18 C-7,-14 -2,-8 0,0 Z" fill="#efa8b7"/>
+      <path d="M0,0 C12,-4 17,-11 15,-18 C7,-14 2,-8 0,0 Z" fill="#efa8b7"/>
+      <circle cx="0" cy="-3" r="3" fill="#f6d28a"/>
+    </g>
+    <g id="basket">
+      <path d="M-32,0 L32,0 L24,34 L-24,34 Z" fill="#d8b37a" stroke="#8a6a4d" stroke-width="2"/>
+      <path d="M-28,8 L28,8 M-26,16 L26,16 M-25,24 L25,24" stroke="#a98252" stroke-width="1.5"/>
+      <path d="M-20,-26 Q0,-42 20,-26" stroke="#a98252" stroke-width="3" fill="none"/>
+    </g>
+    <g id="bowl">
+      <path d="M-24,0 Q0,26 24,0 Z" fill="#f7f2e5" stroke="#a98252" stroke-width="2"/>
+      <path d="M-16,-6 Q0,-12 16,-6" stroke="#a98252" stroke-width="2" fill="none"/>
+    </g>
+    <g id="bird">
+      <path d="M0,0 Q8,-8 16,0 M16,0 Q24,-8 32,0" stroke="#7a8a6a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+    <pattern id="paperDots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="6" r="0.8" fill="#8a7a58" opacity="0.13"/>
+      <circle cx="17" cy="18" r="0.7" fill="#8a7a58" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <rect width="780" height="1500" fill="url(#sky)"/>
+  <circle cx="130" cy="120" r="100" fill="url(#sunGlow)"/>
+  <circle cx="130" cy="120" r="38" fill="#f5d492" opacity="0.85"/>
+  <circle cx="130" cy="120" r="50" fill="none" stroke="#e8c37d" stroke-width="2" opacity="0.45"/>
+  <g opacity="0.85">
+    <use href="#cloud" transform="translate(250,120) scale(0.86)"/>
+    <use href="#cloud" transform="translate(500,170) scale(0.7)"/>
+    <use href="#cloud" transform="translate(80,230) scale(0.55)"/>
+  </g>
+
+  <!-- 青山云海 -->
+  <path d="M0,390 L80,300 L150,340 L230,260 L300,330 L380,280 L460,350 L540,290 L640,360 L720,300 L780,350 L780,470 L0,470 Z" fill="url(#farHill)"/>
+  <path d="M0,430 L100,360 L200,410 L290,350 L390,420 L480,370 L580,430 L680,380 L780,430 L780,520 L0,520 Z" fill="url(#midHill)"/>
+  <g fill="#fffdf5" opacity="0.7">
+    <path d="M0,400 Q90,382 170,400 Q260,420 340,400 Q420,380 500,398 L500,428 Q420,410 340,430 Q250,450 170,430 Q80,410 0,428 Z"/>
+    <path d="M460,410 Q540,392 620,408 Q700,424 780,406 L780,436 Q700,454 620,438 Q540,422 460,440 Z"/>
+  </g>
+
+  <!-- 中央真武阁 -->
+  <path d="M310,640 Q390,580 480,600 Q570,566 660,640 Z" fill="#94bd85"/>
+  <path d="M350,640 Q440,604 520,620 Q600,600 650,640" stroke="#7da56f" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M360,600 L620,600 L635,620 L345,620 Z" fill="#eee4ca" stroke="#a98252" stroke-width="3"/>
+  <path d="M390,620 L390,648 M590,620 L590,648" stroke="#a98252" stroke-width="4"/>
+  <path d="M410,600 L410,648 M570,600 L570,648" stroke="#9d5b44" stroke-width="5"/>
+  <path d="M352,520 Q430,486 490,520 L490,542 L352,542 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M628,520 Q550,486 490,520 L490,542 L628,542 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M336,520 Q320,510 306,490 M644,520 Q660,510 674,490" stroke="#7f3a31" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M410,470 Q470,444 530,470 L530,492 L410,492 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M610,470 Q550,444 490,470 L490,492 L610,492 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M394,470 Q378,460 366,440 M626,470 Q642,460 654,440" stroke="#7f3a31" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M432,492 L548,492 L548,520 L432,520 Z" fill="#f6eed8" stroke="#a98252" stroke-width="2"/>
+  <path d="M472,492 L508,492 L508,520 L472,520 Z" fill="#9d5b44"/>
+  <path d="M444,504 L462,504 L462,516 L444,516 Z M518,504 L536,504 L536,516 L518,516 Z" fill="#e7d3ad" stroke="#a98252" stroke-width="1.5"/>
+  <path d="M440,410 Q470,388 500,410 L500,432 L440,432 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M556,410 Q526,388 496,410 L496,432 L556,432 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M424,410 Q410,400 400,382 M572,410 Q586,400 596,382" stroke="#7f3a31" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M452,432 L508,432 L508,470 L452,470 Z" fill="#f6eed8" stroke="#a98252" stroke-width="2"/>
+  <path d="M468,432 L492,432 L492,470 L468,470 Z" fill="#9d5b44"/>
+  <path d="M420,542 L560,542 L560,600 L420,600 Z" fill="#f6eed8" stroke="#a98252" stroke-width="3"/>
+  <path d="M436,552 L462,552 L462,584 L436,584 Z M518,552 L544,552 L544,584 L518,584 Z" fill="#e7d3ad" stroke="#a98252" stroke-width="2"/>
+  <path d="M474,552 L506,552 L506,584 L474,584 Z" fill="#9d5b44"/>
+  <path d="M430,600 L550,600 M450,600 L450,620 M530,600 L530,620" stroke="#a98252" stroke-width="3"/>
+  <circle cx="410" cy="560" r="6" fill="#e3b45c"/>
+  <circle cx="570" cy="560" r="6" fill="#e3b45c"/>
+
+  <!-- 左侧田园与荷塘 -->
+  <path d="M0,680 Q110,650 240,670 Q330,684 360,676 L360,940 L0,940 Z" fill="url(#field)"/>
+  <path d="M0,720 Q110,696 230,716 Q310,728 360,718" stroke="#a9c77e" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M0,770 Q110,746 230,766 Q310,778 360,768" stroke="#9dbc75" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M0,820 Q90,800 180,816 Q260,830 340,818 L340,900 Q250,914 170,898 Q80,882 0,900 Z" fill="url(#water)" opacity="0.95"/>
+  <g stroke="#e8f4ee" stroke-width="2" fill="none" opacity="0.65">
+    <path d="M30,846 Q85,838 140,848"/>
+    <path d="M170,872 Q225,864 280,874"/>
+    <path d="M60,888 Q115,880 170,890"/>
+  </g>
+  <use href="#lotusPad" transform="translate(70,852) scale(0.9)"/>
+  <use href="#lotusPad" transform="translate(150,884) scale(0.75)"/>
+  <use href="#lotus" transform="translate(100,834) scale(0.8)"/>
+  <use href="#lotus" transform="translate(190,868) scale(0.6)"/>
+
+  <!-- 小路 -->
+  <path d="M390,1500 C300,1380 520,1280 430,1160 C340,1040 520,960 450,860 C380,760 300,700 340,620 C380,540 520,500 430,420 C380,380 330,340 330,300" stroke="#ead8b4" stroke-width="48" fill="none" stroke-linecap="round" opacity="0.95"/>
+  <path d="M390,1500 C300,1380 520,1280 430,1160 C340,1040 520,960 450,860 C380,760 300,700 340,620 C380,540 520,500 430,420 C380,380 330,340 330,300" stroke="#d8c29a" stroke-width="2" fill="none" stroke-dasharray="9 16" opacity="0.65"/>
+
+  <!-- 米粉摊 -->
+  <g transform="translate(75,700)">
+    <path d="M10,120 L190,120 L200,150 L0,150 Z" fill="#e9d8b6" stroke="#a98252" stroke-width="3"/>
+    <path d="M-10,118 L210,118 L194,78 L6,78 Z" fill="#f7e7bd" stroke="#a98252" stroke-width="3"/>
+    <path d="M-10,118 L210,118 L194,78 L6,78 Z" fill="none" stroke="#d98a6a" stroke-width="4" stroke-dasharray="18 14" opacity="0.7"/>
+    <path d="M10,118 L10,150 M190,118 L190,150" stroke="#8a6a4d" stroke-width="5"/>
+    <path d="M28,118 L28,70 M172,118 L172,70" stroke="#8a6a4d" stroke-width="4"/>
+    <ellipse cx="100" cy="112" rx="30" ry="10" fill="#6f5a42" opacity="0.25"/>
+    <path d="M80,92 Q100,114 120,92 Z" fill="#f8f3e5" stroke="#a98252" stroke-width="2"/>
+    <path d="M88,86 Q100,92 112,86" stroke="#a98252" stroke-width="2" fill="none"/>
+    <use href="#bowl" transform="translate(58,100) scale(0.62)"/>
+    <use href="#bowl" transform="translate(142,100) scale(0.62)"/>
+    <path d="M104,78 C94,60 116,52 106,34 C98,20 112,12 108,-2" stroke="#fffdf5" stroke-width="4" fill="none" opacity="0.8" stroke-linecap="round"/>
+    <g transform="translate(208,120) scale(0.8)">
+      <path d="M0,0 L40,0 L40,42 L0,42 Z" fill="#d8b37a" stroke="#8a6a4d" stroke-width="2"/>
+      <path d="M6,10 L34,10 M6,20 L34,20 M6,30 L34,30" stroke="#a98252" stroke-width="1.5"/>
+      <path d="M4,-6 L36,-6" stroke="#8a6a4d" stroke-width="4"/>
+    </g>
+    <g transform="translate(40,164) scale(0.8)">
+      <ellipse cx="24" cy="12" rx="26" ry="8" fill="#d8b37a" stroke="#8a6a4d" stroke-width="2"/>
+      <path d="M0,12 L0,34 M48,12 L48,34 M0,34 L48,34" stroke="#8a6a4d" stroke-width="4"/>
+    </g>
+  </g>
+
+  <!-- 民俗戏台与竹编摊 -->
+  <g transform="translate(390,880)">
+    <path d="M0,190 L300,190 L318,212 L-18,212 Z" fill="#e9d8b6" stroke="#a98252" stroke-width="3"/>
+    <path d="M20,190 L20,150 L280,150 L280,190 Z" fill="#f3e3c4" stroke="#a98252" stroke-width="3"/>
+    <path d="M28,150 L28,76 L272,76 L272,150 Z" fill="#f8efdc" stroke="#a98252" stroke-width="3"/>
+    <path d="M28,76 L272,76 L252,46 L48,46 Z" fill="url(#gold)" stroke="#9a6b2f" stroke-width="3"/>
+    <path d="M48,46 Q30,36 18,18 M252,46 Q270,36 282,18" stroke="#9a6b2f" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M92,76 L92,150 Q116,166 140,150 L140,76" fill="#b9564a" opacity="0.9"/>
+    <path d="M160,76 L160,150 Q184,166 208,150 L208,76" fill="#b9564a" opacity="0.9"/>
+    <path d="M92,76 Q116,86 140,76 M160,76 Q184,86 208,76" stroke="#8f3d35" stroke-width="3" fill="none"/>
+    <circle cx="150" cy="118" r="22" fill="#f1dfb4" stroke="#8a6a4d" stroke-width="2"/>
+    <path d="M128,118 L172,118 M150,96 L150,140" stroke="#8a6a4d" stroke-width="2"/>
+    <path d="M38,76 L38,150 M262,76 L262,150" stroke="#9d5b44" stroke-width="5"/>
+    <circle cx="46" cy="60" r="9" fill="#d98a6a" stroke="#a85a4a" stroke-width="2"/>
+    <circle cx="254" cy="60" r="9" fill="#d98a6a" stroke="#a85a4a" stroke-width="2"/>
+    <path d="M42,46 L42,62 M258,46 L258,62" stroke="#a85a4a" stroke-width="2"/>
+    <g transform="translate(292,72)">
+      <path d="M0,0 L0,-80 M14,-80 L14,-20 M28,-80 L28,-40 M42,-80 L42,-10 M56,-80 L56,-36" stroke="#7fae76" stroke-width="4" opacity="0.8"/>
+      <use href="#basket" transform="translate(24,64) scale(0.8)"/>
+      <use href="#basket" transform="translate(58,74) scale(0.55)"/>
+    </g>
+  </g>
+
+  <!-- 照片取景框 -->
+  <g transform="translate(125,1080)">
+    <path d="M28,200 L8,292 M142,200 L162,292 M85,200 L85,298" stroke="#8a6a4d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M6,178 L164,178 L164,202 L6,202 Z" fill="#c99a6a" stroke="#8a6a4d" stroke-width="3"/>
+    <path d="M16,16 L154,16 L154,180 L16,180 Z" fill="#f8f1dd" stroke="#a98252" stroke-width="5"/>
+    <path d="M26,26 L144,26 L144,170 L26,170 Z" fill="#dcecd7"/>
+    <path d="M26,130 L60,90 L92,126 L114,102 L144,142 L144,170 L26,170 Z" fill="#a8c99b"/>
+    <path d="M26,146 Q58,138 90,148 Q118,156 144,144 L144,170 L26,170 Z" fill="#bcddd4"/>
+    <circle cx="118" cy="58" r="11" fill="#f5d492"/>
+    <path d="M48,48 Q58,40 68,48 M74,38 Q84,30 94,38" stroke="#fffdf5" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <use href="#tree" transform="translate(620,640) scale(1.1)"/>
+  <use href="#tree" transform="translate(70,620) scale(0.9)"/>
+  <use href="#tree" transform="translate(700,1260) scale(1.15)"/>
+  <use href="#tree" transform="translate(60,1000) scale(0.8)"/>
+
+  <g fill="#f2f7e8" opacity="0.85">
+    <circle cx="220" cy="1420" r="5"/><circle cx="246" cy="1434" r="4"/><circle cx="196" cy="1442" r="3"/>
+    <circle cx="500" cy="1410" r="4"/><circle cx="526" cy="1424" r="5"/><circle cx="552" cy="1412" r="3"/>
+    <circle cx="680" cy="1440" r="4"/><circle cx="706" cy="1452" r="5"/>
+  </g>
+  <g fill="#d98a6a" opacity="0.75">
+    <circle cx="300" cy="1448" r="4"/><circle cx="340" cy="1436" r="3"/><circle cx="380" cy="1450" r="4"/>
+    <circle cx="600" cy="1444" r="4"/><circle cx="640" cy="1456" r="3"/>
+  </g>
+  <use href="#bird" transform="translate(560,240) scale(0.7)"/>
+  <use href="#bird" transform="translate(640,200) scale(0.55)"/>
+
+  <rect width="780" height="1500" fill="url(#paperDots)" opacity="0.55"/>
+  <rect x="2" y="2" width="776" height="1496" fill="none" stroke="#b9a77f" stroke-width="2" opacity="0.35"/>
+</svg>

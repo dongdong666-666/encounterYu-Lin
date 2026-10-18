@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	/* 与旅人树屋同一张实景图，但不加米白遮罩，保持原图颜色 */
+	background-color: #f7f3e4;
+	background-image: url("../img/yulin/wucaitianyuan-01.jpg");
+	background-repeat: no-repeat;
+	background-position: center 55%;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+#bkground{
+	padding-top: 100px;
+	text-align: center;
+}
+#bkground .my-information{
+	width: 450px;
+	height: auto;
+	margin: 0 auto;
+	padding: 130px 10px 40px 10px;
+	position: relative;
+	/* 设置透明度(最后一个参数) */
+	background: rgba(116, 120, 122, 0.5);
+	border-radius: 20px;
+}
+#bkground .my-information i{
+	background: url(../img/yulin/gallery-lianlita.jpg) no-repeat center center;
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 5px solid white;
+	margin-top: -70px;
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+#bkground .my-information h3{
+	font-size: 30px;
+	color: white;
+	font-weight: 700;
+	line-height: 60px;
+}
+#bkground .my-information h4{
+	font-size: 18px;
+	color: white;
+	font-weight: 400;
+	padding-top: 30px;
+} 
+#bkground .my-information h5{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	line-height: 40px;
+	padding-bottom: 20px;
+} 
+#bkground .my-information p{
+	font-size: 18px;
+	line-height: 20px;
+	width: 80%;
+	color: white;
+	text-align: center;
+	margin: 20px auto;
+}
+/* “五彩田园”四个字分别用红、橙、绿、蓝，其余文字保持白色 */
+#bkground .my-information p .colorful{
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 700;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.22);
+}
+#bkground .my-information p .colorful span:nth-child(1){
+	color: #e53935;
+}
+#bkground .my-information p .colorful span:nth-child(2){
+	color: #fb8c00;
+}
+#bkground .my-information p .colorful span:nth-child(3){
+	color: #43a047;
+}
+#bkground .my-information p .colorful span:nth-child(4){
+	color: #1e88e5;
+}
+#bkground .my-information a {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 9px 30px;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#bkground .my-information a:hover {
+  background-color: white;
+  color: #8cc269;
+  transform: scale(1.05);
+}
+
+/* 手机端：保持封面构图，只收紧尺寸 */
+@media (max-width: 820px) {
+	body {
+		/* 原图直接显示，不做泛白遮罩 */
+		background-attachment: scroll;
+		background-position: center 48%;
+		min-height: 100vh;
+	}
+	#bkground {
+		padding: 6px 16px 40px;
+	}
+	#bkground .my-information {
+		width: auto;
+		max-width: 420px;
+		padding: 84px 18px 28px 18px;
+		/* 稍加深介绍框，模糊图片顶部的原片文字并保证白字清楚 */
+		background-color: rgba(28, 46, 32, 0.92);
+		border: 1px solid rgba(255, 255, 255, 0.22);
+		-webkit-backdrop-filter: blur(4px);
+		backdrop-filter: blur(4px);
+	}
+	#bkground .my-information i {
+		width: 96px;
+		height: 96px;
+		margin-top: -56px;
+	}
+	#bkground .my-information h3 {
+		font-size: 26px;
+		line-height: 40px;
+	}
+	#bkground .my-information h4 {
+		font-size: 15px;
+		padding-top: 12px;
+	}
+	#bkground .my-information h5 {
+		font-size: 14px;
+		line-height: 24px;
+		padding-bottom: 10px;
+	}
+	#bkground .my-information p {
+		font-size: 14px;
+		line-height: 24px;
+		width: 90%;
+		margin: 12px auto;
+	}
+	#bkground .my-information a {
+		font-size: 20px;
+		padding: 8px 26px;
+		margin-top: 18px;
+	}
+}

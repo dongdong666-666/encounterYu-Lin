@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="玉林手绘漫游示意图：青山云海、田园荷塘、真武阁、米粉摊、民俗戏台与竹编摊、照片取景框">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf6e4"/>
+      <stop offset="0.6" stop-color="#eef2da"/>
+      <stop offset="1" stop-color="#dfeacd"/>
+    </linearGradient>
+    <linearGradient id="farHill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c5dab8"/>
+      <stop offset="1" stop-color="#a9c79c"/>
+    </linearGradient>
+    <linearGradient id="midHill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9cb98"/>
+      <stop offset="1" stop-color="#8bb47f"/>
+    </linearGradient>
+    <linearGradient id="nearHill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9bc489"/>
+      <stop offset="1" stop-color="#7ea86f"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9e2d8"/>
+      <stop offset="1" stop-color="#a9d0c5"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8614f"/>
+      <stop offset="1" stop-color="#93453a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3b45c"/>
+      <stop offset="1" stop-color="#c9903d"/>
+    </linearGradient>
+    <linearGradient id="field1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7e7ac"/>
+      <stop offset="1" stop-color="#bfd98f"/>
+    </linearGradient>
+    <linearGradient id="field2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c7df9e"/>
+      <stop offset="1" stop-color="#a9cb82"/>
+    </linearGradient>
+    <radialGradient id="sunGlow">
+      <stop offset="0" stop-color="#f7dda3" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f7dda3" stop-opacity="0"/>
+    </radialGradient>
+    <g id="cloud">
+      <path d="M0,0 Q18,-26 48,-18 Q66,-40 96,-22 Q124,-30 138,-6 Q160,-2 158,18 Q156,34 132,36 L18,36 Q-6,34 -6,18 Q-6,4 0,0 Z" fill="#fffdf3"/>
+    </g>
+    <g id="tree">
+      <path d="M0,0 C-8,-38 -10,-72 -2,-108" stroke="#8a6a4d" stroke-width="13" fill="none" stroke-linecap="round"/>
+      <path d="M-2,-70 C-24,-84 -38,-96 -44,-112 M-4,-86 C14,-98 28,-108 34,-124" stroke="#8a6a4d" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <circle cx="-32" cy="-124" r="34" fill="#7fae72" opacity="0.95"/>
+      <circle cx="18" cy="-138" r="42" fill="#8fbc7f" opacity="0.95"/>
+      <circle cx="46" cy="-102" r="30" fill="#76a56c" opacity="0.95"/>
+      <circle cx="-8" cy="-92" r="36" fill="#86b478" opacity="0.95"/>
+      <circle cx="-52" cy="-92" r="24" fill="#79a96e" opacity="0.95"/>
+    </g>
+    <g id="lotusPad">
+      <ellipse cx="0" cy="0" rx="22" ry="9" fill="#8bbf8a" opacity="0.9"/>
+      <path d="M-22,0 Q0,-7 22,0" stroke="#6f9f6e" stroke-width="1.5" fill="none"/>
+    </g>
+    <g id="lotus">
+      <path d="M0,0 C-7,-9 -7,-18 0,-24 C7,-18 7,-9 0,0 Z" fill="#f2b7c3"/>
+      <path d="M0,0 C-12,-4 -17,-11 -15,-18 C-7,-14 -2,-8 0,0 Z" fill="#efa8b7"/>
+      <path d="M0,0 C12,-4 17,-11 15,-18 C7,-14 2,-8 0,0 Z" fill="#efa8b7"/>
+      <circle cx="0" cy="-3" r="3" fill="#f6d28a"/>
+    </g>
+    <g id="basket">
+      <path d="M-32,0 L32,0 L24,34 L-24,34 Z" fill="#d8b37a" stroke="#8a6a4d" stroke-width="2"/>
+      <path d="M-28,8 L28,8 M-26,16 L26,16 M-25,24 L25,24" stroke="#a98252" stroke-width="1.5"/>
+      <path d="M-20,-26 Q0,-42 20,-26" stroke="#a98252" stroke-width="3" fill="none"/>
+    </g>
+    <g id="bowl">
+      <path d="M-24,0 Q0,26 24,0 Z" fill="#f7f2e5" stroke="#a98252" stroke-width="2"/>
+      <path d="M-16,-6 Q0,-12 16,-6" stroke="#a98252" stroke-width="2" fill="none"/>
+    </g>
+    <g id="bird">
+      <path d="M0,0 Q8,-8 16,0 M16,0 Q24,-8 32,0" stroke="#7a8a6a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+    <pattern id="paperDots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="6" r="0.8" fill="#8a7a58" opacity="0.13"/>
+      <circle cx="17" cy="18" r="0.7" fill="#8a7a58" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="228" cy="150" r="120" fill="url(#sunGlow)"/>
+  <circle cx="228" cy="150" r="44" fill="#f5d492" opacity="0.85"/>
+  <circle cx="228" cy="150" r="58" fill="none" stroke="#e8c37d" stroke-width="2" opacity="0.45"/>
+
+  <g opacity="0.85">
+    <use href="#cloud" transform="translate(330,170) scale(1.2)"/>
+    <use href="#cloud" transform="translate(760,120) scale(0.9)"/>
+    <use href="#cloud" transform="translate(1100,190) scale(1.35)"/>
+    <use href="#cloud" transform="translate(1380,130) scale(0.75)"/>
+  </g>
+  <g opacity="0.5">
+    <use href="#cloud" transform="translate(560,250) scale(0.6)"/>
+    <use href="#cloud" transform="translate(1240,280) scale(0.55)"/>
+  </g>
+
+  <!-- 远山与云海 -->
+  <path d="M0,420 L90,330 L150,360 L250,270 L330,340 L420,300 L500,370 L590,310 L690,380 L790,330 L900,390 L1010,320 L1110,380 L1210,330 L1320,400 L1430,330 L1520,390 L1600,350 L1600,560 L0,560 Z" fill="url(#farHill)"/>
+  <path d="M0,470 L120,390 L230,440 L330,370 L440,450 L540,400 L650,470 L770,420 L880,480 L1000,420 L1120,480 L1260,410 L1380,480 L1500,430 L1600,470 L1600,600 L0,600 Z" fill="url(#midHill)" opacity="0.95"/>
+  <path d="M0,520 Q180,470 320,520 Q470,560 520,540 Q640,500 760,540 Q900,580 1010,540 Q1170,490 1300,540 Q1450,580 1600,530 L1600,640 L0,640 Z" fill="#a7c995" opacity="0.8"/>
+  <g fill="#fffdf5" opacity="0.72">
+    <path d="M0,470 Q120,450 220,470 Q340,492 430,470 Q520,448 620,468 L620,500 Q520,482 430,502 Q330,522 220,500 Q110,480 0,500 Z"/>
+    <path d="M880,470 Q980,448 1080,466 Q1180,484 1280,462 Q1380,442 1480,464 L1480,494 Q1380,474 1280,494 Q1180,514 1080,496 Q980,478 880,498 Z"/>
+  </g>
+
+  <!-- 左侧田园与荷塘 -->
+  <path d="M0,600 Q120,570 260,590 Q390,606 520,586 L520,900 L0,900 Z" fill="url(#field1)"/>
+  <path d="M0,650 Q130,620 260,642 Q390,660 520,638" stroke="#a9c77e" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M0,704 Q140,674 270,696 Q400,716 520,692" stroke="#a9c77e" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M0,760 Q150,730 280,752 Q410,772 520,748" stroke="#9dbc75" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M0,700 Q60,680 140,700 Q230,726 320,704 Q400,686 470,700 L470,780 Q390,766 310,784 Q220,804 140,780 Q60,760 0,780 Z" fill="url(#water)" opacity="0.95"/>
+  <g stroke="#e8f4ee" stroke-width="2" fill="none" opacity="0.65">
+    <path d="M40,730 Q90,722 140,732"/>
+    <path d="M170,756 Q220,748 270,758"/>
+    <path d="M60,780 Q110,772 160,782"/>
+    <path d="M250,716 Q300,708 350,718"/>
+  </g>
+  <use href="#lotusPad" transform="translate(80,742)"/>
+  <use href="#lotusPad" transform="translate(150,786) scale(0.85)"/>
+  <use href="#lotusPad" transform="translate(50,806) scale(0.65)"/>
+  <use href="#lotus" transform="translate(108,724) scale(0.9)"/>
+  <use href="#lotus" transform="translate(178,768) scale(0.7)"/>
+  <!-- 田埂小苗 -->
+  <g stroke="#6f9f5c" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M330,640 l0,-12 M334,640 l4,-10 M326,640 l-4,-9"/>
+    <path d="M390,670 l0,-12 M394,670 l4,-10 M386,670 l-4,-9"/>
+    <path d="M440,706 l0,-12 M444,706 l4,-10 M436,706 l-4,-9"/>
+    <path d="M300,720 l0,-12 M304,720 l4,-10 M296,720 l-4,-9"/>
+    <path d="M470,760 l0,-12 M474,760 l4,-10 M466,760 l-4,-9"/>
+  </g>
+
+  <!-- 中央真武阁 -->
+  <path d="M560,560 Q660,500 780,520 Q900,486 1010,560 Z" fill="#94bd85"/>
+  <path d="M600,560 Q700,522 800,540 Q900,516 980,560" stroke="#7da56f" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M640,520 L880,520 L900,540 L620,540 Z" fill="#eee4ca" stroke="#a98252" stroke-width="3"/>
+  <path d="M690,540 L690,570 M830,540 L830,570" stroke="#a98252" stroke-width="4"/>
+  <path d="M700,540 L820,540 L820,570 L700,570 Z" fill="#f8f1dd" stroke="#a98252" stroke-width="2"/>
+  <path d="M760,540 L760,570 M700,556 L820,556" stroke="#c9a878" stroke-width="2"/>
+  <!-- 三层屋檐 -->
+  <path d="M620,430 Q680,402 740,430 L740,452 L620,452 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M860,430 Q800,402 740,430 L740,452 L860,452 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M604,430 Q588,420 574,400 M876,430 Q892,420 906,400" stroke="#7f3a31" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M700,380 Q740,356 780,380 L780,400 L700,400 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M840,380 Q800,356 760,380 L760,400 L840,400 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M684,380 Q668,370 656,350 M856,380 Q872,370 884,350" stroke="#7f3a31" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M714,400 L806,400 L806,430 L714,430 Z" fill="#f6eed8" stroke="#a98252" stroke-width="2"/>
+  <path d="M744,400 L776,400 L776,430 L744,430 Z" fill="#9d5b44"/>
+  <path d="M726,412 L738,412 L738,424 L726,424 Z M782,412 L794,412 L794,424 L782,424 Z" fill="#e7d3ad" stroke="#a98252" stroke-width="1.5"/>
+  <path d="M720,320 Q760,296 800,320 L800,342 L720,342 Z" fill="url(#roof)" stroke="#7f3a31" stroke-width="2"/>
+  <path d="M812,320 Q780,300 760,320" stroke="#7f3a31" stroke-width="3" fill="none"/>
+  <path d="M700,320 Q680,312 668,294 M820,320 Q840,312 852,294" stroke="#7f3a31" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M730,342 L790,342 L790,380 L730,380 Z" fill="#f6eed8" stroke="#a98252" stroke-width="2"/>
+  <path d="M748,342 L772,342 L772,380 L748,380 Z" fill="#9d5b44"/>
+  <!-- 楼身 -->
+  <path d="M690,452 L830,452 L830,520 L690,520 Z" fill="#f6eed8" stroke="#a98252" stroke-width="3"/>
+  <path d="M706,464 L738,464 L738,500 L706,500 Z M782,464 L814,464 L814,500 L782,500 Z" fill="#e7d3ad" stroke="#a98252" stroke-width="2"/>
+  <path d="M748,464 L772,464 L772,500 L748,500 Z" fill="#9d5b44"/>
+  <path d="M706,480 L738,480 M782,480 L814,480 M748,478 L772,478" stroke="#a98252" stroke-width="1.5"/>
+  <path d="M700,520 L820,520 M720,520 L720,540 M800,520 L800,540" stroke="#a98252" stroke-width="3"/>
+  <path d="M680,452 L680,520 M840,452 L840,520" stroke="#9d5b44" stroke-width="6"/>
+  <circle cx="680" cy="470" r="7" fill="#e3b45c"/>
+  <circle cx="840" cy="470" r="7" fill="#e3b45c"/>
+  <path d="M656,440 q-6,18 0,30 q8,-12 0,-30 M864,440 q6,18 0,30 q-8,-12 0,-30" fill="#d98a6a" stroke="#a85a4a" stroke-width="1.5"/>
+
+  <!-- 小路 -->
+  <path d="M760,900 C730,820 810,760 790,700 C770,640 820,590 800,540" stroke="#ead8b4" stroke-width="62" fill="none" stroke-linecap="round" opacity="0.95"/>
+  <path d="M760,900 C730,820 810,760 790,700 C770,640 820,590 800,540" stroke="#d8c29a" stroke-width="2" fill="none" stroke-dasharray="10 18" opacity="0.7"/>
+  <path d="M790,760 C900,720 1000,720 1080,740" stroke="#ead8b4" stroke-width="42" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M790,760 C900,720 1000,720 1080,740" stroke="#d8c29a" stroke-width="2" fill="none" stroke-dasharray="8 16" opacity="0.6"/>
+
+  <!-- 米粉摊 -->
+  <g transform="translate(560,640)">
+    <path d="M20,120 L210,120 L220,150 L10,150 Z" fill="#e9d8b6" stroke="#a98252" stroke-width="3"/>
+    <path d="M0,118 L230,118 L214,78 L16,78 Z" fill="#f7e7bd" stroke="#a98252" stroke-width="3"/>
+    <path d="M0,118 L230,118 L214,78 L16,78 Z" fill="none" stroke="#d98a6a" stroke-width="4" stroke-dasharray="18 14" opacity="0.7"/>
+    <path d="M20,118 L20,150 M210,118 L210,150" stroke="#8a6a4d" stroke-width="5"/>
+    <path d="M34,118 L34,70 M196,118 L196,70" stroke="#8a6a4d" stroke-width="4"/>
+    <path d="M28,150 L28,178 M202,150 L202,178" stroke="#8a6a4d" stroke-width="4"/>
+    <ellipse cx="115" cy="112" rx="34" ry="12" fill="#6f5a42" opacity="0.25"/>
+    <path d="M92,92 Q115,116 138,92 Z" fill="#f8f3e5" stroke="#a98252" stroke-width="2"/>
+    <path d="M100,86 Q115,92 130,86" stroke="#a98252" stroke-width="2" fill="none"/>
+    <use href="#bowl" transform="translate(70,100) scale(0.75)"/>
+    <use href="#bowl" transform="translate(160,100) scale(0.75)"/>
+    <path d="M120,78 C108,58 132,50 122,30 C114,16 128,8 124,-6" stroke="#fffdf5" stroke-width="5" fill="none" opacity="0.8" stroke-linecap="round"/>
+    <path d="M96,70 C88,54 104,48 98,32" stroke="#fffdf5" stroke-width="4" fill="none" opacity="0.65" stroke-linecap="round"/>
+    <g transform="translate(232,124)">
+      <path d="M0,0 L34,0 L34,38 L0,38 Z" fill="#d8b37a" stroke="#8a6a4d" stroke-width="2"/>
+      <path d="M6,8 L28,8 M6,16 L28,16 M6,24 L28,24" stroke="#a98252" stroke-width="1.5"/>
+      <path d="M4,-4 L30,-4" stroke="#8a6a4d" stroke-width="4"/>
+    </g>
+    <g transform="translate(30,168)">
+      <ellipse cx="24" cy="12" rx="26" ry="8" fill="#d8b37a" stroke="#8a6a4d" stroke-width="2"/>
+      <path d="M0,12 L0,34 M48,12 L48,34 M0,34 L48,34" stroke="#8a6a4d" stroke-width="4"/>
+    </g>
+    <g transform="translate(172,168) scale(0.85)">
+      <ellipse cx="24" cy="12" rx="26" ry="8" fill="#d8b37a" stroke="#8a6a4d" stroke-width="2"/>
+      <path d="M0,12 L0,34 M48,12 L48,34 M0,34 L48,34" stroke="#8a6a4d" stroke-width="4"/>
+    </g>
+  </g>
+
+  <!-- 民俗戏台与竹编摊 -->
+  <g transform="translate(1050,600)">
+    <path d="M0,200 L280,200 L300,220 L-20,220 Z" fill="#e9d8b6" stroke="#a98252" stroke-width="3"/>
+    <path d="M20,200 L20,160 L260,160 L260,200 Z" fill="#f3e3c4" stroke="#a98252" stroke-width="3"/>
+    <path d="M30,160 L30,86 L250,86 L250,160 Z" fill="#f8efdc" stroke="#a98252" stroke-width="3"/>
+    <path d="M30,86 L250,86 L232,56 L48,56 Z" fill="url(#gold)" stroke="#9a6b2f" stroke-width="3"/>
+    <path d="M48,56 Q30,46 18,28 M232,56 Q250,46 262,28" stroke="#9a6b2f" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M96,86 L96,160 Q120,176 144,160 L144,86" fill="#b9564a" opacity="0.9"/>
+    <path d="M156,86 L156,160 Q180,176 204,160 L204,86" fill="#b9564a" opacity="0.9"/>
+    <path d="M96,86 Q120,96 144,86 M156,86 Q180,96 204,86" stroke="#8f3d35" stroke-width="3" fill="none"/>
+    <circle cx="150" cy="128" r="22" fill="#f1dfb4" stroke="#8a6a4d" stroke-width="2"/>
+    <path d="M128,128 L172,128 M150,106 L150,150" stroke="#8a6a4d" stroke-width="2"/>
+    <path d="M40,86 L40,160 M240,86 L240,160" stroke="#9d5b44" stroke-width="5"/>
+    <path d="M28,160 L252,160" stroke="#9d5b44" stroke-width="6"/>
+    <circle cx="48" cy="70" r="9" fill="#d98a6a" stroke="#a85a4a" stroke-width="2"/>
+    <circle cx="232" cy="70" r="9" fill="#d98a6a" stroke="#a85a4a" stroke-width="2"/>
+    <path d="M44,56 L44,72 M236,56 L236,72" stroke="#a85a4a" stroke-width="2"/>
+    <!-- 竹编摊 -->
+    <g transform="translate(300,110)">
+      <path d="M0,90 L110,90 L104,150 L6,150 Z" fill="#d8b37a" stroke="#8a6a4d" stroke-width="3"/>
+      <path d="M8,106 L102,106 M10,122 L100,122 M12,138 L98,138" stroke="#a98252" stroke-width="1.5"/>
+      <use href="#basket" transform="translate(30,60) scale(0.9)"/>
+      <use href="#basket" transform="translate(76,70) scale(0.65)"/>
+      <use href="#basket" transform="translate(52,18) scale(0.55)"/>
+      <path d="M0,0 L0,-80 M14,-80 L14,-20 M28,-80 L28,-40 M42,-80 L42,-10 M56,-80 L56,-36 M70,-80 L70,-16" stroke="#7fae76" stroke-width="4" opacity="0.8"/>
+      <path d="M-8,-80 Q30,-92 78,-80" stroke="#7fae76" stroke-width="3" fill="none" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- 照片取景框 -->
+  <g transform="translate(1300,270)">
+    <path d="M30,210 L10,300 M150,210 L170,300 M90,210 L90,306" stroke="#8a6a4d" stroke-width="7" stroke-linecap="round"/>
+    <path d="M8,188 L172,188 L172,212 L8,212 Z" fill="#c99a6a" stroke="#8a6a4d" stroke-width="3"/>
+    <path d="M18,18 L162,18 L162,190 L18,190 Z" fill="#f8f1dd" stroke="#a98252" stroke-width="5"/>
+    <path d="M28,28 L152,28 L152,180 L28,180 Z" fill="#dcecd7"/>
+    <path d="M28,138 L64,96 L96,132 L118,108 L152,148 L152,180 L28,180 Z" fill="#a8c99b"/>
+    <path d="M28,154 Q60,146 92,156 Q122,164 152,152 L152,180 L28,180 Z" fill="#bcddd4"/>
+    <circle cx="126" cy="62" r="12" fill="#f5d492"/>
+    <path d="M52,52 Q62,44 72,52 M80,42 Q90,34 100,42" stroke="#fffdf5" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M18,18 L18,190 M162,18 L162,190" stroke="#c99a6a" stroke-width="4"/>
+  </g>
+
+  <!-- 树木与前景花草 -->
+  <use href="#tree" transform="translate(70,700) scale(1.35)"/>
+  <use href="#tree" transform="translate(470,560) scale(0.9)"/>
+  <use href="#tree" transform="translate(980,520) scale(0.8)"/>
+  <use href="#tree" transform="translate(1530,640) scale(1.2)"/>
+  <g fill="#f2f7e8" opacity="0.85">
+    <circle cx="240" cy="850" r="5"/><circle cx="260" cy="862" r="4"/><circle cx="220" cy="870" r="3"/>
+    <circle cx="520" cy="846" r="4"/><circle cx="548" cy="858" r="5"/><circle cx="500" cy="870" r="3"/>
+    <circle cx="900" cy="850" r="4"/><circle cx="932" cy="862" r="5"/><circle cx="958" cy="850" r="3"/>
+    <circle cx="1180" cy="850" r="4"/><circle cx="1206" cy="862" r="5"/><circle cx="1232" cy="850" r="3"/>
+    <circle cx="1440" cy="856" r="4"/><circle cx="1466" cy="868" r="5"/><circle cx="1492" cy="856" r="3"/>
+  </g>
+  <g fill="#d98a6a" opacity="0.75">
+    <circle cx="300" cy="842" r="4"/><circle cx="340" cy="858" r="3"/><circle cx="380" cy="846" r="4"/>
+    <circle cx="620" cy="856" r="4"/><circle cx="660" cy="844" r="3"/><circle cx="700" cy="860" r="4"/>
+    <circle cx="1010" cy="850" r="4"/><circle cx="1050" cy="862" r="3"/><circle cx="1090" cy="848" r="4"/>
+    <circle cx="1360" cy="858" r="4"/><circle cx="1400" cy="846" r="3"/>
+  </g>
+  <use href="#bird" transform="translate(1180,210) scale(0.8)"/>
+  <use href="#bird" transform="translate(1260,170) scale(0.6)"/>
+  <use href="#bird" transform="translate(540,200) scale(0.7)"/>
+
+  <rect width="1600" height="900" fill="url(#paperDots)" opacity="0.55"/>
+  <rect x="2" y="2" width="1596" height="896" fill="none" stroke="#b9a77f" stroke-width="2" opacity="0.35"/>
+</svg>

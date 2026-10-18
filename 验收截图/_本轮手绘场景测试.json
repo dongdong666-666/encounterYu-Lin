@@ -1,0 +1,147 @@
+{
+  "round": "2026-10-18 hand-drawn scene",
+  "total": 28,
+  "passed": 28,
+  "items": [
+    {
+      "name": "场景素材可访问 /img/scene/yulin-scene-desktop.svg",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "场景素材可访问 /img/scene/yulin-scene-mobile.svg",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "电脑端五个入口/顺序",
+      "pass": true,
+      "detail": "[{\"label\":\"山水漫游\",\"href\":\"detail.html#sport\",\"x\":238,\"y\":275,\"w\":88,\"h\":99,\"lleft\":239,\"lright\":325,\"ltop\":384,\"lbottom\":414},{\"label\":\"人文寻踪\",\"href\":\"detail.html#reading\",\"x\":426,\"y\":373,\"w\":73,\"h\":66,\"lleft\":419,\"lright\":505,\"ltop\":448,\"lbottom\":479},{\"label\":\"寻味玉林\",\"href\":\"detail.html#music\",\"x\":440,\"y\":591,\"w\":73,\"h\":113,\"lleft\":434,\"lright\":519,\"ltop\":714,\"lbottom\":744},{\"label\":\"民俗拾趣\",\"href\":\"detail.html#folk\",\"x\":901,\"y\":624,\"w\":76,\"h\":76,\"lleft\":896,\"lright\":982,\"ltop\":710,\"lbottom\":740},{\"label\":\"光影玉林\",\"href\":\"detail.html#photo\",\"x\":1189,\"y\":324,\"w\":82,\"h\":105,\"lleft\":1187,\"lright\":1273,\"ltop\":439,\"lbottom\":470}]"
+    },
+    {
+      "name": "电脑端入口锚点",
+      "pass": true,
+      "detail": "detail.html#sport,detail.html#reading,detail.html#music,detail.html#folk,detail.html#photo"
+    },
+    {
+      "name": "电脑端标签不重叠",
+      "pass": true,
+      "detail": "[{\"label\":\"山水漫游\",\"href\":\"detail.html#sport\",\"x\":238,\"y\":275,\"w\":88,\"h\":99,\"lleft\":239,\"lright\":325,\"ltop\":384,\"lbottom\":414},{\"label\":\"人文寻踪\",\"href\":\"detail.html#reading\",\"x\":426,\"y\":373,\"w\":73,\"h\":66,\"lleft\":419,\"lright\":505,\"ltop\":448,\"lbottom\":479},{\"label\":\"寻味玉林\",\"href\":\"detail.html#music\",\"x\":440,\"y\":591,\"w\":73,\"h\":113,\"lleft\":434,\"lright\":519,\"ltop\":714,\"lbottom\":744},{\"label\":\"民俗拾趣\",\"href\":\"detail.html#folk\",\"x\":901,\"y\":624,\"w\":76,\"h\":76,\"lleft\":896,\"lright\":982,\"ltop\":710,\"lbottom\":740},{\"label\":\"光影玉林\",\"href\":\"detail.html#photo\",\"x\":1189,\"y\":324,\"w\":82,\"h\":105,\"lleft\":1187,\"lright\":1273,\"ltop\":439,\"lbottom\":470}]"
+    },
+    {
+      "name": "电脑端使用横向场景",
+      "pass": true,
+      "detail": "http://127.0.0.1:8000/img/scene/yulin-scene-desktop.svg"
+    },
+    {
+      "name": "电脑端当前页高亮",
+      "pass": true,
+      "detail": "漫游玉林"
+    },
+    {
+      "name": "电脑端无横向溢出",
+      "pass": true,
+      "detail": "{\"w\":1440,\"inner\":1440}"
+    },
+    {
+      "name": "主题导览示意标注",
+      "pass": true,
+      "detail": "主题导览示意图 · 不代表精确地理位置"
+    },
+    {
+      "name": "入口不被左侧导航遮挡",
+      "pass": true,
+      "detail": "[{\"x\":238,\"y\":275},{\"x\":426,\"y\":373},{\"x\":440,\"y\":591},{\"x\":901,\"y\":624},{\"x\":1189,\"y\":324}]"
+    },
+    {
+      "name": "入口悬停放大保留",
+      "pass": true,
+      "detail": "matrix(1.08, 0, 0, 1.08, 0, 0)"
+    },
+    {
+      "name": "电脑端无脚本异常",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "手机端使用竖向场景",
+      "pass": true,
+      "detail": "http://127.0.0.1:8000/img/scene/yulin-scene-mobile.svg"
+    },
+    {
+      "name": "手机端五个入口/顺序",
+      "pass": true,
+      "detail": "[{\"label\":\"山水漫游\",\"href\":\"detail.html#sport\",\"x\":27,\"y\":340,\"w\":64,\"h\":72,\"lleft\":25,\"lright\":93,\"ltop\":420,\"lbottom\":444},{\"label\":\"人文寻踪\",\"href\":\"detail.html#reading\",\"x\":30,\"y\":483,\"w\":48,\"h\":44,\"lleft\":21,\"lright\":89,\"ltop\":534,\"lbottom\":558},{\"label\":\"寻味玉林\",\"href\":\"detail.html#music\",\"x\":27,\"y\":580,\"w\":52,\"h\":80,\"lleft\":19,\"lright\":87,\"ltop\":669,\"lbottom\":693},{\"label\":\"民俗拾趣\",\"href\":\"detail.html#folk\",\"x\":249,\"y\":685,\"w\":52,\"h\":52,\"lleft\":241,\"lright\":309,\"ltop\":746,\"lbottom\":770},{\"label\":\"光影玉林\",\"href\":\"detail.html#photo\",\"x\":163,\"y\":798,\"w\":52,\"h\":67,\"lleft\":155,\"lright\":223,\"ltop\":873,\"lbottom\":897}]"
+    },
+    {
+      "name": "手机端入口触控≥44",
+      "pass": true,
+      "detail": "[{\"w\":64,\"h\":72},{\"w\":48,\"h\":44},{\"w\":52,\"h\":80},{\"w\":52,\"h\":52},{\"w\":52,\"h\":67}]"
+    },
+    {
+      "name": "手机端标签不重叠",
+      "pass": true,
+      "detail": "[{\"label\":\"山水漫游\",\"href\":\"detail.html#sport\",\"x\":27,\"y\":340,\"w\":64,\"h\":72,\"lleft\":25,\"lright\":93,\"ltop\":420,\"lbottom\":444},{\"label\":\"人文寻踪\",\"href\":\"detail.html#reading\",\"x\":30,\"y\":483,\"w\":48,\"h\":44,\"lleft\":21,\"lright\":89,\"ltop\":534,\"lbottom\":558},{\"label\":\"寻味玉林\",\"href\":\"detail.html#music\",\"x\":27,\"y\":580,\"w\":52,\"h\":80,\"lleft\":19,\"lright\":87,\"ltop\":669,\"lbottom\":693},{\"label\":\"民俗拾趣\",\"href\":\"detail.html#folk\",\"x\":249,\"y\":685,\"w\":52,\"h\":52,\"lleft\":241,\"lright\":309,\"ltop\":746,\"lbottom\":770},{\"label\":\"光影玉林\",\"href\":\"detail.html#photo\",\"x\":163,\"y\":798,\"w\":52,\"h\":67,\"lleft\":155,\"lright\":223,\"ltop\":873,\"lbottom\":897}]"
+    },
+    {
+      "name": "手机端无横向溢出",
+      "pass": true,
+      "detail": "{\"w\":390,\"inner\":390}"
+    },
+    {
+      "name": "手机端无大块空白",
+      "pass": true,
+      "detail": "{\"page\":971,\"sceneTop\":221,\"sceneBottom\":971}"
+    },
+    {
+      "name": "手机端五个入口落在场景内",
+      "pass": true,
+      "detail": "{\"top\":221,\"bottom\":971}"
+    },
+    {
+      "name": "手机导航可展开收起",
+      "pass": true,
+      "detail": "{\"o\":true,\"c\":true,\"links\":[\"初见玉林\",\"漫游玉林\",\"玉林风物\",\"旅人树屋\"]}"
+    },
+    {
+      "name": "左侧四个页面按钮不变",
+      "pass": true,
+      "detail": "[\"初见玉林\",\"漫游玉林\",\"玉林风物\",\"旅人树屋\"]"
+    },
+    {
+      "name": "手机端无脚本异常",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "五个目标分区均存在",
+      "pass": true,
+      "detail": "[{\"id\":\"sport\",\"ok\":true},{\"id\":\"reading\",\"ok\":true},{\"id\":\"music\",\"ok\":true},{\"id\":\"folk\",\"ok\":true},{\"id\":\"photo\",\"ok\":true}]"
+    },
+    {
+      "name": "实际点击入口 1 -> #sport",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#sport"
+    },
+    {
+      "name": "实际点击入口 2 -> #reading",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#reading"
+    },
+    {
+      "name": "实际点击入口 3 -> #music",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#music"
+    },
+    {
+      "name": "实际点击入口 4 -> #folk",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#folk"
+    },
+    {
+      "name": "实际点击入口 5 -> #photo",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#photo"
+    }
+  ]
+}
