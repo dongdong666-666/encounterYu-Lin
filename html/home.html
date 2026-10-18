@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>漫游玉林 · 遇见玉林</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/home.css" />
+	</head>
+	<body class="page-roam">
+		<div id="main-body">
+			<!-- 电脑：浅绿色 AI 主题插画；手机：保留现有竖版 SVG -->
+			<div class="scene">
+				<picture>
+					<source media="(max-width: 820px)" srcset="../img/scene/yulin-scene-mobile.svg" />
+					<img class="scene-bg" src="../img/scene/yulin-guide-light-green-v3.png" alt="AI主题导览插画：青山湖面、楼阁、米粉摊、民俗戏台与竹编摊、木制取景框" />
+				</picture>
+				<p class="scene-note">AI主题导览插画 · 不代表精确地理位置</p>
+
+				<a href="detail.html#sport" class="sport" aria-label="山水漫游">
+					<img src="../img/icons/nature.svg" alt="山水的图标">
+					<span class="entry-label">山水漫游</span>
+				</a>
+				<a href="detail.html#reading" class="reading" aria-label="人文寻踪">
+					<img src="../img/icons/culture.svg" alt="楼阁的图标">
+					<span class="entry-label">人文寻踪</span>
+				</a>
+				<a href="detail.html#music" class="music" aria-label="寻味玉林">
+					<img src="../img/icons/food.svg" alt="一碗热粉的图标">
+					<span class="entry-label">寻味玉林</span>
+				</a>
+				<a href="detail.html#folk" class="folk" aria-label="民俗拾趣">
+					<img src="../img/icons/folk.svg" alt="民俗戏台的图标">
+					<span class="entry-label">民俗拾趣</span>
+				</a>
+				<a href="detail.html#photo" class="photo" aria-label="光影玉林">
+					<img src="../img/icons/light.svg" alt="相机的图标">
+					<span class="entry-label">光影玉林</span>
+				</a>
+			</div>
+
+			<!-- 介绍：电脑端覆盖在场景上方，手机端排在场景之前 -->
+			<div class="my-content">
+				<div class="my-information">
+					<h2>沿着小路，漫游玉林</h2>
+					<p>看山水、访古阁、寻家乡味、听民俗乡音。</p>
+					<p>点击画面里的五处场景，开启你的玉林之旅。</p>
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<button class="box-toggle" type="button" aria-expanded="false" aria-controls="sideNav">导航</button>
+			<div id="sideNav" class="box-links">
+				<a href="../index.html">初见玉林</a>
+				<a href="home.html" class="active">漫游玉林</a>
+				<a href="detail.html">玉林风物</a>
+				<a href="message.html">旅人树屋</a>
+			</div>
+		</div>
+		<script src="../js/common.js"></script>
+	</body>
+</html>

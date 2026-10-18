@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" width="320" height="360">
+  <g fill="none" stroke="#6b4a35" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 太阳 -->
+    <circle cx="246" cy="84" r="26" fill="#f7d98a"/>
+    <path d="M246 44v-10M246 134v-10M206 84h-10M296 84h-10" stroke="#e0a94b" stroke-width="5"/>
+    <!-- 远山 -->
+    <path d="M18 214l52-74 34 48 24-32 46 58z" fill="#c9e6b0"/>
+    <!-- 云 -->
+    <path d="M72 128c-12-12-2-28 12-26 4-14 24-16 32-4 12-8 26 2 24 16" fill="#ffffff" stroke="#a8d878" stroke-width="5"/>
+    <!-- 主山 -->
+    <path d="M54 292l72-140 38 74 22-40 84 106z" fill="#8cc269"/>
+    <!-- 山顶雪/草 -->
+    <path d="M126 152l24 40c-14 6-30 4-42-8 6-12 12-22 18-32z" fill="#eaf4dc"/>
+    <!-- 水流 -->
+    <path d="M160 260c-6 26-2 52 8 74M174 256c-4 26 0 52 12 72" stroke="#8ecbe0" stroke-width="9"/>
+    <!-- 近山 -->
+    <path d="M8 300l58-70 40 46 30-26 62 50z" fill="#6eaf4b"/>
+    <path d="M14 300h290" stroke-width="7"/>
+    <!-- 树 -->
+    <path d="M262 268c-14 0-22 12-20 24 2 10 10 16 20 16s18-6 20-16c2-12-6-24-20-24z" fill="#6eaf4b"/>
+    <path d="M262 308v24" stroke="#8a5b3d" stroke-width="7"/>
+    <!-- 飞鸟 -->
+    <path d="M74 92c6-6 10-6 16 0M98 108c6-6 10-6 16 0" stroke="#6b4a35" stroke-width="4"/>
+  </g>
+</svg>

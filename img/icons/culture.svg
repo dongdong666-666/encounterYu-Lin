@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 216" width="240" height="216">
+  <g fill="none" stroke="#6b4a35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 云 -->
+    <path d="M24 62c-10-10-2-24 10-22 2-12 18-16 26-6 10-8 24 0 22 12" fill="#eaf4dc" stroke="#8cc269" stroke-width="5"/>
+    <!-- 屋顶 -->
+    <path d="M42 96c8-18 24-30 30-30h56c6 0 22 12 30 30" fill="#8cc269"/>
+    <path d="M34 100c14-8 30-12 46-12h40c16 0 32 4 46 12" fill="#a8d878"/>
+    <path d="M30 104c18 6 40 8 60 8h20c20 0 42-2 60-8" stroke-width="6"/>
+    <!-- 上层屋檐 -->
+    <path d="M74 60c8-12 18-18 24-18h8c6 0 16 6 24 18" fill="#a8d878"/>
+    <!-- 柱子 -->
+    <path d="M62 108v62M92 108v62M132 108v62M162 108v62"/>
+    <!-- 栏杆与墙 -->
+    <path d="M54 146h116" stroke="#c98b4b" stroke-width="7"/>
+    <path d="M62 170h100" stroke="#c98b4b" stroke-width="7"/>
+    <path d="M70 146v24M96 146v24M120 146v24M146 146v24" stroke-width="4"/>
+    <!-- 匾额 -->
+    <rect x="92" y="118" width="42" height="18" rx="4" fill="#f6efd7"/>
+    <path d="M102 127h22" stroke="#c95b4a" stroke-width="5"/>
+    <!-- 台基 -->
+    <path d="M46 170h132l10 16H36z" fill="#f0e6cf"/>
+    <path d="M30 186h154" stroke-width="6"/>
+    <!-- 台阶 -->
+    <path d="M98 186v14h28v-14" fill="#f6efd7"/>
+    <!-- 小树 -->
+    <path d="M196 132c-12 0-18 10-16 20 2 8 10 12 16 12s14-4 16-12c2-10-4-20-16-20z" fill="#8cc269"/>
+    <path d="M196 164v22" stroke="#8a5b3d" stroke-width="6"/>
+    <!-- 灯笼 -->
+    <ellipse cx="52" cy="126" rx="8" ry="11" fill="#e08a4b"/>
+    <path d="M52 115v-6M52 137v6" stroke="#c95b4a" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,197 @@
+{
+  "round": "2026-10-18 incremental",
+  "total": 38,
+  "passed": 38,
+  "items": [
+    {
+      "name": "漫游页五个入口与链接",
+      "pass": true,
+      "detail": "{\"count\":5,\"links\":[{\"href\":\"detail.html#music\",\"label\":\"寻味玉林\",\"w\":187,\"h\":288,\"top\":749,\"lleft\":512,\"lright\":597,\"ltop\":1044,\"lbottom\":1074},{\"href\":\"detail.html#reading\",\"label\":\"人文寻踪\",\"w\":144,\"h\":130,\"top\":605,\"lleft\":792,\"lright\":878,\"ltop\":742,\"lbottom\":772},{\"href\":\"detail.html#sport\",\"label\":\"山水漫游\",\"w\":230,\"h\":259,\"top\":749,\"lleft\":216,\"lright\":302,\"ltop\":1015,\"lbottom\":1046},{\"href\":\"detail.html#photo\",\"label\":\"光影玉林\",\"w\":202,\"h\":259,\"top\":734,\"lleft\":1008,\"lright\":1094,\"ltop\":1001,\"lbottom\":1031},{\"href\":\"detail.html#folk\",\"label\":\"民俗拾趣\",\"w\":173,\"h\":173,\"top\":792,\"lleft\":1253,\"lright\":1339,\"ltop\":986,\"lbottom\":1017}],\"active\":\"漫游玉林\"}"
+    },
+    {
+      "name": "漫游页导航高亮",
+      "pass": true,
+      "detail": "漫游玉林"
+    },
+    {
+      "name": "手机主页无横向溢出",
+      "pass": true,
+      "detail": "{\"w\":390,\"inner\":390}"
+    },
+    {
+      "name": "手机五个入口触控尺寸",
+      "pass": true,
+      "detail": "[{\"label\":\"寻味玉林\",\"w\":51,\"h\":78,\"lleft\":119,\"lright\":181,\"ltop\":395,\"lbottom\":416},{\"label\":\"人文寻踪\",\"w\":44,\"h\":44,\"lleft\":195,\"lright\":257,\"ltop\":331,\"lbottom\":352},{\"label\":\"山水漫游\",\"w\":62,\"h\":70,\"lleft\":39,\"lright\":101,\"ltop\":388,\"lbottom\":409},{\"label\":\"光影玉林\",\"w\":55,\"h\":70,\"lleft\":254,\"lright\":316,\"ltop\":384,\"lbottom\":405},{\"label\":\"民俗拾趣\",\"w\":47,\"h\":47,\"lleft\":320,\"lright\":382,\"ltop\":380,\"lbottom\":401}]"
+    },
+    {
+      "name": "手机五个标签不重叠",
+      "pass": true,
+      "detail": "[{\"label\":\"寻味玉林\",\"w\":51,\"h\":78,\"lleft\":119,\"lright\":181,\"ltop\":395,\"lbottom\":416},{\"label\":\"人文寻踪\",\"w\":44,\"h\":44,\"lleft\":195,\"lright\":257,\"ltop\":331,\"lbottom\":352},{\"label\":\"山水漫游\",\"w\":62,\"h\":70,\"lleft\":39,\"lright\":101,\"ltop\":388,\"lbottom\":409},{\"label\":\"光影玉林\",\"w\":55,\"h\":70,\"lleft\":254,\"lright\":316,\"ltop\":384,\"lbottom\":405},{\"label\":\"民俗拾趣\",\"w\":47,\"h\":47,\"lleft\":320,\"lright\":382,\"ltop\":380,\"lbottom\":401}]"
+    },
+    {
+      "name": "手机引导包含五个链接",
+      "pass": true,
+      "detail": "{\"links\":5,\"h\":389}"
+    },
+    {
+      "name": "手机主页无大面积空白",
+      "pass": true,
+      "detail": "{\"page\":849,\"guideBottom\":837}"
+    },
+    {
+      "name": "手机导航可展开收起",
+      "pass": true,
+      "detail": "{\"open\":true,\"closed\":true}"
+    },
+    {
+      "name": "民俗分区位于人文与山水之间",
+      "pass": true,
+      "detail": "music,reading,folk,sport,photo"
+    },
+    {
+      "name": "详情页页内导航5项且单行",
+      "pass": true,
+      "detail": "{\"nav\":[\"#music\",\"#reading\",\"#folk\",\"#sport\",\"#photo\"],\"rows\":1}"
+    },
+    {
+      "name": "详情页导航高亮",
+      "pass": true,
+      "detail": "玉林风物"
+    },
+    {
+      "name": "民俗四张配图可加载",
+      "pass": true,
+      "detail": "[{\"src\":\"../img/folk/caichaxi.jpg\",\"w\":400,\"h\":267},{\"src\":\"../img/folk/bayin.jpg\",\"w\":400,\"h\":267},{\"src\":\"../img/folk/mangzhu.jpg\",\"w\":400,\"h\":267},{\"src\":\"../img/folk/yumao.jpg\",\"w\":400,\"h\":267}]"
+    },
+    {
+      "name": "民俗故事可展开收起",
+      "pass": true,
+      "detail": "{\"open\":{\"expanded\":\"true\",\"hidden\":false,\"text\":\"收起故事\"},\"close\":{\"expanded\":\"false\",\"hidden\":true,\"text\":\"展开故事\"}}"
+    },
+    {
+      "name": "电脑相册键盘可展开收起",
+      "pass": true,
+      "detail": "{\"w1\":532,\"a1\":true,\"w2\":74,\"a2\":false,\"caption\":\"当前：容县真武阁\"}"
+    },
+    {
+      "name": "相册说明与操作同步",
+      "pass": true,
+      "detail": "当前：容县真武阁"
+    },
+    {
+      "name": "手机详情无横向溢出",
+      "pass": true,
+      "detail": "{\"scrollW\":390,\"inner\":390,\"h\":8624,\"folk\":true}"
+    },
+    {
+      "name": "手机相册首张可展开",
+      "pass": true,
+      "detail": "{\"idx\":0,\"active\":true,\"widths\":[264,13,13,13,13,13,13,13,13],\"sum\":368,\"albumW\":366,\"caption\":\"当前：大容山云海与风车\",\"scrollW\":390,\"inner\":390}"
+    },
+    {
+      "name": "手机相册中间可展开",
+      "pass": true,
+      "detail": "{\"idx\":4,\"active\":true,\"widths\":[13,13,13,13,264,13,13,13,13],\"sum\":368,\"albumW\":366,\"caption\":\"当前：鹏垌村的老墙与村口\",\"scrollW\":390,\"inner\":390}"
+    },
+    {
+      "name": "手机相册末张可展开",
+      "pass": true,
+      "detail": "{\"idx\":8,\"active\":true,\"widths\":[13,13,13,13,13,13,13,13,264],\"sum\":368,\"albumW\":366,\"caption\":\"当前：玉林城区全景\",\"scrollW\":390,\"inner\":390}"
+    },
+    {
+      "name": "相册展开不超出容器/不横向滚动",
+      "pass": true,
+      "detail": "[{\"sum\":368,\"album\":366,\"sw\":390},{\"sum\":368,\"album\":366,\"sw\":390},{\"sum\":368,\"album\":366,\"sw\":390}]"
+    },
+    {
+      "name": "民俗视频可播放/暂停/拖动",
+      "pass": true,
+      "detail": "{\"duration\":22.366667,\"controls\":true,\"t1\":1.739197,\"t2\":11.183333}"
+    },
+    {
+      "name": "页面本地链接有效 /",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "页面本地链接有效 /html/home.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "页面本地链接有效 /html/detail.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "页面本地链接有效 /html/message.html",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "旅人树屋表单与日历仍在",
+      "pass": true,
+      "detail": "{\"hasForm\":true,\"hasWish\":true,\"calendar\":true}"
+    },
+    {
+      "name": "封面使用指定图片",
+      "pass": true,
+      "detail": "linear-gradient(rgba(18, 46, 30, 0.3), rgba(18, 46, 30, 0.3)), url(\"http://127.0.0.1:8000/img/yulin/%E5%B0%81%E9%9D%A2%E5%A4%A7%E5%AE%B9%E5%B1%B1.jpg\")"
+    },
+    {
+      "name": "封面文案与按钮",
+      "pass": true,
+      "detail": "{\"bg\":\"linear-gradient(rgba(18, 46, 30, 0.3), rgba(18, 46, 30, 0.3)), url(\\\"http://127.0.0.1:8000/img/yulin/%E5%B0%81%E9%9D%A2%E5%A4%A7%E5%AE%B9%E5%B1%B1.jpg\\\")\",\"title\":\"遇见玉林\",\"h4\":\"我的家乡 · 广西玉林\",\"h5\":\"看山水，听乡音，品烟火。\",\"p\":\"从大容山出发，遇见玉林的山水与烟火。\",\"btn\":\"走进玉林\",\"href\":\"./html/home.html\",\"circle\":true}"
+    },
+    {
+      "name": "左侧导航4项 /html/home.html",
+      "pass": true,
+      "detail": "{\"text\":[\"初见玉林\",\"漫游玉林\",\"玉林风物\",\"旅人树屋\"],\"href\":[\"../index.html\",\"home.html\",\"detail.html\",\"message.html\"],\"active\":\"漫游玉林\"}"
+    },
+    {
+      "name": "左侧导航4项 /html/detail.html",
+      "pass": true,
+      "detail": "{\"text\":[\"初见玉林\",\"漫游玉林\",\"玉林风物\",\"旅人树屋\"],\"href\":[\"../index.html\",\"home.html\",\"detail.html\",\"message.html\"],\"active\":\"玉林风物\"}"
+    },
+    {
+      "name": "左侧导航4项 /html/message.html",
+      "pass": true,
+      "detail": "{\"text\":[\"初见玉林\",\"漫游玉林\",\"玉林风物\",\"旅人树屋\"],\"href\":[\"../index.html\",\"home.html\",\"detail.html\",\"message.html\"],\"active\":\"旅人树屋\"}"
+    },
+    {
+      "name": "民俗四项可展开",
+      "pass": true,
+      "detail": "{\"n\":4,\"states\":[{\"e\":\"true\",\"h\":false},{\"e\":\"true\",\"h\":false},{\"e\":\"true\",\"h\":false},{\"e\":\"true\",\"h\":false}]}"
+    },
+    {
+      "name": "详情页无图片404",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "详情页无脚本异常",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "五段视频均实际存在且可读元数据",
+      "pass": true,
+      "detail": "[{\"src\":\"/img/yulin/玉林介绍视频.mp4\",\"duration\":340.589864,\"error\":false},{\"src\":\"/img/yulin/玉林景点介绍.mp4\",\"duration\":127.569773,\"error\":false},{\"src\":\"/img/yulin/玉林美食介绍.mp4\",\"duration\":194.536122,\"error\":false},{\"src\":\"/img/yulin/玉林游玩攻略.mp4\",\"duration\":251.820408,\"error\":false},{\"src\":\"/video/民俗.mp4\",\"duration\":22.366667,\"error\":false}]"
+    },
+    {
+      "name": "留言/心愿/日期仍可保存并跨刷新保留",
+      "pass": true,
+      "detail": "{\"saved\":{\"m\":1,\"w\":1,\"p\":\"\\\"2026-12-06\\\"\",\"msg\":1,\"wish\":1},\"persisted\":{\"m\":1,\"w\":1,\"date\":\"2026-12-06\"}}"
+    },
+    {
+      "name": "测试后已恢复原有本地数据",
+      "pass": true,
+      "detail": "{\"before\":\"{\\\"m\\\":null,\\\"w\\\":null,\\\"p\\\":null}\",\"after\":{\"m\":null,\"w\":null,\"p\":null}}"
+    },
+    {
+      "name": "五彩田园视频替换为 五彩田园等风景.mp4",
+      "pass": true,
+      "detail": "href=../img/yulin/五彩田园等风景.mp4; duration=93.65s; 可播放/暂停/拖动; HTTP 200"
+    }
+  ]
+}

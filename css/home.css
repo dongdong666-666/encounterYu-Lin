@@ -1,0 +1,365 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f4f1df;
+}
+/* 电脑端：左侧留出导航专属区域，右侧画布按剩余宽度等比显示 */
+@media (min-width: 821px) {
+	body.page-roam{
+		background-color: #eef2da;
+	}
+	.page-roam #main-body{
+		width: 100%;
+		margin-left: 0;
+	}
+	.page-roam .box{
+		width: 154px;
+		left: 24px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.page-roam .box a{
+		font-size: 15px;
+		line-height: 1.4;
+		padding: 13px 0;
+		margin: 8px 10px;
+	}
+	/* 自动隐藏时仍保持垂直居中 */
+	.nav-ready.page-roam .box{
+		left: -200px;
+		transition: left 0.32s ease;
+	}
+	.nav-ready.page-roam .box.nav-open{
+		left: 24px;
+	}
+}
+#main-body {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+/* 手绘漫游图：图片决定场景高度，入口按百分比叠在图上 */
+.scene{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	line-height: 0;
+	background-color: #eef2da;
+}
+.scene picture{
+	display: block;
+}
+.scene .scene-bg{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.scene-note{
+	position: absolute;
+	right: 16px;
+	bottom: 12px;
+	margin: 0;
+	padding: 4px 10px;
+	background-color: rgba(255, 253, 242, 0.82);
+	border-radius: 10px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 1.4;
+	color: #6b7a63;
+	z-index: 4;
+}
+
+/* 介绍：桌面端覆盖在天空区域 */
+#main-body .my-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	pointer-events: none;
+	/* 强制独立合成层，避免大图覆盖文字 */
+	transform: translateZ(0);
+}
+#main-body .my-content .my-information{
+	position: relative;
+	top: 2.6vw;
+	width: 80%;
+	max-width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	color: #3f5a2f;
+	animation: none;
+	text-shadow: 0 1px 0 rgba(255, 255, 245, 0.75);
+}
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(2vw); }
+	to { opacity: 1; transform: translateY(0); }
+}
+#main-body .my-content .my-information h2{
+	font-size: 2.8vw;
+	line-height: 4.2vw;
+	font-family: "宋体";
+	padding-top: 1.4vw;
+	padding-bottom: 0.8vw;
+	font-weight: 700;
+}
+#main-body .my-content .my-information p{
+	font-size: 1.35vw;
+	line-height: 2.3vw;
+	font-family: "宋体";
+}
+
+/* 五个入口：电脑端直接把画面场景作为透明点击区域 */
+.scene a{
+	position: absolute;
+	display: block;
+	z-index: 2;
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	border-radius: 18px;
+	box-sizing: border-box;
+	box-shadow: none;
+	transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+/* 悬停只通过小标签反馈，不覆盖整片场景 */
+.scene a:hover{
+	background-color: transparent;
+	box-shadow: none;
+}
+.scene a:focus-visible{
+	outline: 3px solid #6b4a35;
+	outline-offset: 3px;
+	background-color: transparent;
+}
+/* 电脑端不再显示五个重复的大图标 */
+.scene a img{
+	display: none;
+}
+.scene a .entry-label{
+	position: absolute;
+	top: -30px;
+	left: 0;
+	transform: none;
+	margin: 0;
+	white-space: nowrap;
+	font-family: "微软雅黑";
+	font-size: clamp(12.5px, 0.95vw, 16px);
+	line-height: 1;
+	color: #2f5a2a;
+	background-color: rgba(255, 250, 236, 0.94);
+	border: 1.5px solid #a98252;
+	border-radius: 12px;
+	padding: 5px 9px;
+	box-shadow: 0 3px 8px rgba(70, 80, 50, 0.16);
+	transition: transform 0.25s ease, background-color 0.25s ease;
+	pointer-events: auto;
+}
+.scene a:hover .entry-label,
+.scene a:focus-visible .entry-label{
+	transform: translateY(-3px);
+	background-color: #fffdf4;
+}
+/* 电脑横向场景：五个场景本身的点击区域（按新 PNG 校准） */
+.scene .sport{
+	left: 18%;
+	top: 24%;
+	width: 22%;
+	height: 16%;
+}
+.scene .reading{
+	left: 37%;
+	top: 40%;
+	width: 23%;
+	height: 25%;
+}
+.scene .music{
+	left: 10%;
+	top: 64%;
+	width: 26%;
+	height: 30%;
+}
+.scene .folk{
+	left: 63%;
+	top: 65%;
+	width: 35%;
+	height: 29%;
+}
+.scene .photo{
+	left: 80%;
+	top: 44%;
+	width: 18%;
+	height: 19%;
+}
+/* 标签按每个场景单独放在附近留白处，避免贴底或远离主体 */
+.scene .sport .entry-label{
+	top: -30px;
+	left: 4%;
+}
+.scene .reading .entry-label{
+	top: -48px;
+	left: 6%;
+}
+.scene .music .entry-label{
+	top: -30px;
+	/* 全宽后仍避开弹出导航，标签放在 x≈12% 处 */
+	left: 12%;
+}
+.scene .folk .entry-label{
+	top: -34px;
+	left: 2%;
+}
+.scene .photo .entry-label{
+	top: -28px;
+	left: 6%;
+}
+
+/* ================= 手机端：沿小路上下展开的竖向场景 ================= */
+@media (max-width: 820px) {
+	body,
+	body.page-roam{
+		background-color: #f4f1df;
+	}
+	/* 手机端取消电脑导航预留区，恢复全宽 */
+	.page-roam #main-body{
+		width: 100%;
+		margin-left: 0;
+	}
+	.page-roam .box{
+		width: auto;
+		left: 12px;
+		top: 12px;
+		transform: none;
+		background: transparent;
+		box-shadow: none;
+	}
+	.page-roam .box a{
+		font-size: 16px;
+		line-height: normal;
+		padding: 10px 0;
+		margin: 6px 10px;
+	}
+	#main-body{
+		display: flex;
+		flex-direction: column;
+		overflow: visible;
+		background-color: #f4f1df;
+	}
+	#main-body .my-content{
+		position: static;
+		order: 1;
+		height: auto;
+		pointer-events: auto;
+		z-index: auto;
+		transform: none;
+	}
+	#main-body .my-content .my-information{
+		position: static;
+		top: auto;
+		width: 100%;
+		max-width: none;
+		margin: 0;
+		padding: 56px 18px 14px 18px;
+		background-color: #f7f3e4;
+		border-radius: 0 0 20px 20px;
+		box-sizing: border-box;
+		text-align: center;
+		animation: none;
+		text-shadow: none;
+	}
+	#main-body .my-content .my-information h2{
+		font-size: 18px;
+		line-height: 1.6;
+		padding: 0 0 4px 0;
+		color: #3f5a2f;
+	}
+	#main-body .my-content .my-information p{
+		font-size: 13.5px;
+		line-height: 1.75;
+		color: #3f5a2f;
+	}
+	#main-body .scene{
+		order: 2;
+	}
+	.scene-note{
+		right: 8px;
+		bottom: 6px;
+		font-size: 10.5px;
+		padding: 3px 8px;
+	}
+	/* 手机端保留现有竖版 SVG 入口的图标徽章 */
+	.scene a,
+	.scene .sport,
+	.scene .reading,
+	.scene .music,
+	.scene .folk,
+	.scene .photo{
+		height: auto;
+		padding: 5px;
+		background-color: rgba(255, 250, 236, 0.94);
+		border: 2px solid #6b4a35;
+		border-radius: 18px;
+		box-shadow: 0 6px 12px rgba(70, 80, 50, 0.2);
+	}
+	.scene a:hover{
+		background-color: #fffdf4;
+		box-shadow: 0 8px 16px rgba(70, 80, 50, 0.26);
+	}
+	.scene a img{
+		display: block;
+		width: 100%;
+		height: auto;
+		transition: transform 0.3s ease;
+	}
+	.scene a:hover img{
+		transform: scale(1.08);
+	}
+	.scene a .entry-label,
+	.scene .sport .entry-label,
+	.scene .reading .entry-label,
+	.scene .music .entry-label,
+	.scene .folk .entry-label,
+	.scene .photo .entry-label{
+		top: 100%;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: 3px;
+		font-size: 12px;
+		padding: 5px 9px;
+		border-width: 1.5px;
+		pointer-events: auto;
+	}
+	.scene a:hover .entry-label,
+	.scene a:focus-visible .entry-label{
+		transform: translateX(-50%) scale(1.06);
+	}
+	.scene .sport{
+		left: 5%;
+		top: 15%;
+		width: 20%;
+	}
+	.scene .reading{
+		left: 6%;
+		top: 34%;
+		width: 16%;
+	}
+	.scene .music{
+		left: 5%;
+		top: 47%;
+		width: 17%;
+	}
+	.scene .folk{
+		left: 62%;
+		top: 61%;
+		width: 17%;
+	}
+	.scene .photo{
+		left: 40%;
+		top: 76%;
+		width: 17%;
+	}
+}

@@ -1,0 +1,72 @@
+{
+  "round": "2026-10-19 cover no overlay + auto nav",
+  "total": 13,
+  "passed": 13,
+  "items": [
+    {
+      "name": "封面背景直接使用原图",
+      "pass": true,
+      "detail": "url(\"http://127.0.0.1:8000/img/yulin/wucaitianyuan-01.jpg\")"
+    },
+    {
+      "name": "封面背景无泛白遮罩",
+      "pass": true,
+      "detail": "url(\"http://127.0.0.1:8000/img/yulin/wucaitianyuan-01.jpg\")"
+    },
+    {
+      "name": "封面无横向溢出",
+      "pass": true,
+      "detail": "{\"bg\":\"url(\\\"http://127.0.0.1:8000/img/yulin/wucaitianyuan-01.jpg\\\")\",\"pos\":\"50% 55%\",\"size\":\"cover\",\"scrollW\":1440,\"inner\":1440}"
+    },
+    {
+      "name": "电脑端导航初始隐藏",
+      "pass": true,
+      "detail": "{\"ready\":true,\"left\":-200,\"right\":-46,\"open\":false,\"sceneLeft\":200,\"links\":4}"
+    },
+    {
+      "name": "鼠标到左边缘导航弹出",
+      "pass": true,
+      "detail": "{\"left\":24,\"right\":178,\"top\":326,\"bottom\":574,\"open\":true,\"viewportH\":900,\"scrollW\":1440,\"inner\":1440}"
+    },
+    {
+      "name": "鼠标离开后导航收起",
+      "pass": true,
+      "detail": "{\"left\":-200,\"open\":false}"
+    },
+    {
+      "name": "漫游页无脚本异常",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "/html/detail.html 导航自动隐藏/弹出",
+      "pass": true,
+      "detail": "{\"init\":{\"left\":-200,\"ready\":true},\"openState\":{\"left\":20,\"open\":true}}"
+    },
+    {
+      "name": "/html/message.html 导航自动隐藏/弹出",
+      "pass": true,
+      "detail": "{\"init\":{\"left\":-200,\"ready\":true},\"openState\":{\"left\":20,\"open\":true}}"
+    },
+    {
+      "name": "手机导航仍可见且全宽",
+      "pass": true,
+      "detail": "{\"left\":12,\"top\":12,\"open\":false,\"scrollW\":390,\"inner\":390,\"sceneLeft\":0}"
+    },
+    {
+      "name": "手机折叠菜单可展开收起",
+      "pass": true,
+      "detail": "{\"open\":true,\"closed\":true}"
+    },
+    {
+      "name": "手机封面原图无遮罩",
+      "pass": true,
+      "detail": "background-image 只有 url(wucaitianyuan-01.jpg)，无 gradient，scrollW=390"
+    },
+    {
+      "name": "手机封面无横向溢出",
+      "pass": true,
+      "detail": "scrollWidth=390"
+    }
+  ]
+}

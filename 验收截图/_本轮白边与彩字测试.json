@@ -1,0 +1,47 @@
+{
+  "round": "2026-10-19 edge hint + colorful text",
+  "total": 8,
+  "passed": 8,
+  "items": [
+    {
+      "name": "封面文案改为五彩田园",
+      "pass": true,
+      "detail": "{\"text\":\"五彩田园\",\"colors\":[\"rgb(229, 57, 53)\",\"rgb(251, 140, 0)\",\"rgb(67, 160, 71)\",\"rgb(30, 136, 229)\"],\"p\":\"从五彩田园出发，遇见玉林的山水与烟火。\"}"
+    },
+    {
+      "name": "五彩田园四个字颜色不同",
+      "pass": true,
+      "detail": "{\"text\":\"五彩田园\",\"colors\":[\"rgb(229, 57, 53)\",\"rgb(251, 140, 0)\",\"rgb(67, 160, 71)\",\"rgb(30, 136, 229)\"],\"p\":\"从五彩田园出发，遇见玉林的山水与烟火。\"}"
+    },
+    {
+      "name": "导航隐藏时显示白色边缘提示",
+      "pass": true,
+      "detail": "{\"edgeExists\":true,\"display\":\"flex\",\"left\":0,\"top\":418,\"w\":18,\"h\":64,\"opacity\":\"1\",\"navLeft\":-200,\"open\":false}"
+    },
+    {
+      "name": "悬停白边提示弹出导航",
+      "pass": true,
+      "detail": "{\"navLeft\":24,\"open\":true,\"edgeOpacity\":\"0\",\"expanded\":\"true\"}"
+    },
+    {
+      "name": "导航收起后白边恢复",
+      "pass": true,
+      "detail": "{\"navLeft\":-200,\"open\":false,\"edgeOpacity\":\"1\"}"
+    },
+    {
+      "name": "漫游页无脚本异常",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "手机端隐藏白边提示",
+      "pass": true,
+      "detail": "{\"edge\":\"none\",\"toggleLeft\":12,\"scrollW\":390,\"inner\":390}"
+    },
+    {
+      "name": "点击白边提示可展开并聚焦导航",
+      "pass": true,
+      "detail": "nav-open=true，focus 在初见玉林"
+    }
+  ]
+}

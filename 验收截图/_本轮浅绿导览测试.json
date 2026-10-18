@@ -1,0 +1,127 @@
+{
+  "round": "2026-10-18 light-green guide",
+  "total": 24,
+  "passed": 24,
+  "items": [
+    {
+      "name": "桌面加载新PNG背景",
+      "pass": true,
+      "detail": "{\"src\":\"http://127.0.0.1:8000/img/scene/yulin-guide-light-green-v3.png\",\"nw\":1586,\"nh\":992}"
+    },
+    {
+      "name": "背景等比显示不拉伸",
+      "pass": true,
+      "detail": "{\"rw\":1425,\"rh\":891,\"ratio\":1.5993265993265993}"
+    },
+    {
+      "name": "五个入口顺序/链接",
+      "pass": true,
+      "detail": "[{\"label\":\"山水漫游\",\"href\":\"detail.html#sport\",\"x\":257,\"y\":214,\"w\":314,\"h\":143,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":257,\"ly\":184,\"lw\":70},{\"label\":\"人文寻踪\",\"href\":\"detail.html#reading\",\"x\":527,\"y\":357,\"w\":328,\"h\":223,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":527,\"ly\":311,\"lw\":70},{\"label\":\"寻味玉林\",\"href\":\"detail.html#music\",\"x\":143,\"y\":570,\"w\":371,\"h\":267,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":143,\"ly\":540,\"lw\":70},{\"label\":\"民俗拾趣\",\"href\":\"detail.html#folk\",\"x\":898,\"y\":579,\"w\":499,\"h\":258,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":898,\"ly\":842,\"lw\":70},{\"label\":\"光影玉林\",\"href\":\"detail.html#photo\",\"x\":1140,\"y\":392,\"w\":257,\"h\":169,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":1140,\"ly\":362,\"lw\":70}]"
+    },
+    {
+      "name": "桌面隐藏大图标框",
+      "pass": true,
+      "detail": "[{\"d\":\"none\",\"bg\":\"rgba(0, 0, 0, 0)\"},{\"d\":\"none\",\"bg\":\"rgba(0, 0, 0, 0)\"},{\"d\":\"none\",\"bg\":\"rgba(0, 0, 0, 0)\"},{\"d\":\"none\",\"bg\":\"rgba(0, 0, 0, 0)\"},{\"d\":\"none\",\"bg\":\"rgba(0, 0, 0, 0)\"}]"
+    },
+    {
+      "name": "五个点击区域不重叠",
+      "pass": true,
+      "detail": "[{\"label\":\"山水漫游\",\"href\":\"detail.html#sport\",\"x\":257,\"y\":214,\"w\":314,\"h\":143,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":257,\"ly\":184,\"lw\":70},{\"label\":\"人文寻踪\",\"href\":\"detail.html#reading\",\"x\":527,\"y\":357,\"w\":328,\"h\":223,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":527,\"ly\":311,\"lw\":70},{\"label\":\"寻味玉林\",\"href\":\"detail.html#music\",\"x\":143,\"y\":570,\"w\":371,\"h\":267,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":143,\"ly\":540,\"lw\":70},{\"label\":\"民俗拾趣\",\"href\":\"detail.html#folk\",\"x\":898,\"y\":579,\"w\":499,\"h\":258,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":898,\"ly\":842,\"lw\":70},{\"label\":\"光影玉林\",\"href\":\"detail.html#photo\",\"x\":1140,\"y\":392,\"w\":257,\"h\":169,\"bg\":\"rgba(0, 0, 0, 0)\",\"imgDisplay\":\"none\",\"lx\":1140,\"ly\":362,\"lw\":70}]"
+    },
+    {
+      "name": "点击区域避开左侧导航",
+      "pass": true,
+      "detail": "[{\"x\":257,\"y\":214},{\"x\":527,\"y\":357},{\"x\":143,\"y\":570},{\"x\":898,\"y\":579},{\"x\":1140,\"y\":392}]"
+    },
+    {
+      "name": "标题/介绍/提示文案",
+      "pass": true,
+      "detail": "{\"title\":\"沿着小路，漫游玉林\",\"p\":[\"看山水、访古阁、寻家乡味、听民俗乡音。\",\"点击画面里的五处场景，开启你的玉林之旅。\"]}"
+    },
+    {
+      "name": "当前页高亮",
+      "pass": true,
+      "detail": "漫游玉林"
+    },
+    {
+      "name": "电脑无横向溢出",
+      "pass": true,
+      "detail": "{\"w\":1425,\"inner\":1440}"
+    },
+    {
+      "name": "悬停有柔和反馈",
+      "pass": true,
+      "detail": "{\"bg\":\"rgba(255, 253, 242, 0.1)\",\"shadow\":\"rgba(255, 253, 242, 0.65) 0px 0px 0px 2px, rgba(255, 255, 255, 0.35) 0px 0px 18px 0px\",\"label\":\"matrix(1, 0, 0, 1, 0, -3)\"}"
+    },
+    {
+      "name": "键盘可聚焦场景入口",
+      "pass": true,
+      "detail": "{\"tag\":\"A\",\"cls\":\"sport\",\"outline\":\"solid\"}"
+    },
+    {
+      "name": "键盘 Enter 可跳转",
+      "pass": true,
+      "detail": "/html/detail.html#sport"
+    },
+    {
+      "name": "电脑无脚本异常",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "手机保留现有竖版 SVG",
+      "pass": true,
+      "detail": "http://127.0.0.1:8000/img/scene/yulin-scene-mobile.svg"
+    },
+    {
+      "name": "手机入口触控≥44且不重叠",
+      "pass": true,
+      "detail": "[{\"label\":\"山水漫游\",\"x\":20,\"y\":263,\"w\":78,\"h\":86,\"lx\":25,\"ly\":350},{\"label\":\"人文寻踪\",\"x\":23,\"y\":405,\"w\":62,\"h\":58,\"lx\":21,\"ly\":464},{\"label\":\"寻味玉林\",\"x\":20,\"y\":503,\"w\":66,\"h\":94,\"lx\":19,\"ly\":598},{\"label\":\"民俗拾趣\",\"x\":242,\"y\":608,\"w\":66,\"h\":66,\"lx\":241,\"ly\":675},{\"label\":\"光影玉林\",\"x\":156,\"y\":720,\"w\":66,\"h\":81,\"lx\":155,\"ly\":802}]"
+    },
+    {
+      "name": "手机无横向溢出",
+      "pass": true,
+      "detail": "{\"w\":390,\"inner\":390}"
+    },
+    {
+      "name": "手机页面无大块空白",
+      "pass": true,
+      "detail": "{\"page\":900,\"scene\":750}"
+    },
+    {
+      "name": "手机导航可展开收起",
+      "pass": true,
+      "detail": "{\"o\":true,\"c\":true}"
+    },
+    {
+      "name": "手机无脚本异常",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "实际点击入口 1 -> #sport",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#sport"
+    },
+    {
+      "name": "实际点击入口 2 -> #reading",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#reading"
+    },
+    {
+      "name": "实际点击入口 3 -> #music",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#music"
+    },
+    {
+      "name": "实际点击入口 4 -> #folk",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#folk"
+    },
+    {
+      "name": "实际点击入口 5 -> #photo",
+      "pass": true,
+      "detail": "已跳转 /html/detail.html#photo"
+    }
+  ]
+}

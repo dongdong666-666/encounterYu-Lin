@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 400" width="260" height="400">
+  <g fill="none" stroke="#6b4a35" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 热气 -->
+    <path d="M105 150c-16-20 14-30 0-52" stroke="#8cc269" stroke-width="7"/>
+    <path d="M132 138c-18-24 16-36 0-62" stroke="#8cc269" stroke-width="7"/>
+    <path d="M159 152c-15-19 13-29 0-50" stroke="#8cc269" stroke-width="7"/>
+    <!-- 筷子 -->
+    <path d="M78 214l92-44" stroke="#c98b4b" stroke-width="9"/>
+    <path d="M92 228l92-44" stroke="#c98b4b" stroke-width="9"/>
+    <!-- 碗里的粉 -->
+    <path d="M84 240c10 8 24 12 46 12s36-4 46-12" fill="#f6efd7"/>
+    <path d="M92 240c8 6 20 9 38 9s30-3 38-9" stroke="#e2b96a" stroke-width="5"/>
+    <path d="M110 250c4-8 10-11 14-4M130 252c4-8 10-11 14-4" stroke="#c98b4b" stroke-width="5"/>
+    <!-- 碗 -->
+    <path d="M62 244h136c-4 52-30 82-68 82s-64-30-68-82z" fill="#ffffff"/>
+    <path d="M62 244h136" stroke-width="7"/>
+    <path d="M82 276c14 18 32 26 48 26s34-8 48-26" stroke="#8cc269" stroke-width="8"/>
+    <!-- 碗底 -->
+    <path d="M110 326h40" stroke-width="9"/>
+    <!-- 小菜碟 -->
+    <ellipse cx="204" cy="330" rx="26" ry="12" fill="#f6efd7"/>
+    <path d="M186 326c6-8 30-8 36 0" stroke="#e08a4b" stroke-width="6"/>
+    <!-- 葱花 -->
+    <circle cx="96" cy="300" r="5" fill="#8cc269" stroke="none"/>
+    <circle cx="116" cy="312" r="4" fill="#8cc269" stroke="none"/>
+    <circle cx="150" cy="310" r="5" fill="#8cc269" stroke="none"/>
+  </g>
+</svg>

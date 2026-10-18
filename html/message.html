@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>旅人树屋 · 遇见玉林</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/message.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div class="message-header">
+				<h1>欢迎来到旅人树屋</h1>
+				<p>在玉林的绿意里留一句话，写下想去的景点和想尝的味道，再给这趟旅程挑一个日子。</p>
+				<p class="storage-note">留言、心愿和日期只保存在当前浏览器，不会上传到任何服务器。</p>
+			</div>
+		</div>
+		<!-- 给玉林留句话 -->
+		<div id="board1">
+			<div class="form-section">
+				<h2>🌱 给玉林留句话</h2>
+				<form class="message-form" id="messageForm">
+					<div class="block1">
+						<label for="user">昵称*</label>
+						<input id="user" type="text" maxlength="20" placeholder="你的昵称" required="required" />
+					</div>
+					<div class="block2">
+						<label for="messageText">留言内容*</label>
+						<textarea id="messageText" placeholder="想对玉林说的话..." rows="6" maxlength="300" required="required"></textarea>
+					</div>
+					<div class="submit">
+						<button type="submit">留下这句话</button>
+					</div>
+					<p class="form-hint" id="messageHint" role="status"></p>
+				</form>
+				<div class="saved-block">
+					<h3>树屋里的话</h3>
+					<div class="note-list" id="messageList"></div>
+				</div>
+			</div>
+		</div>
+		<!-- 我的旅行心愿 -->
+		<div id="board2">
+			<div class="form-section">
+				<h2>🧳 我的旅行心愿</h2>
+				<form class="info-form wish-form" id="wishForm">
+					<div class="form1">
+						<fieldset>
+							<legend>想去的与想吃的</legend>
+							<div class="block1">
+								<label for="wishSpot">感兴趣的景点</label>
+								<input id="wishSpot" type="text" maxlength="30" placeholder="例如：大容山" />
+							</div>
+							<div class="block1">
+								<label for="wishFood">想尝试的美食</label>
+								<input id="wishFood" type="text" maxlength="30" placeholder="例如：牛腩粉" />
+							</div>
+							<div class="block1">
+								<label for="wishDate">计划出游日期</label>
+								<input id="wishDate" type="date" />
+							</div>
+						</fieldset>
+					</div>
+					<div class="form3">
+						<fieldset>
+							<legend>想说的话（可选）</legend>
+							<textarea id="wishNote" placeholder="为什么想去，或者想和谁一起去..." rows="4" maxlength="200"></textarea>
+						</fieldset>
+					</div>
+					<div class="submit">
+						<button type="submit">保存我的心愿</button>
+					</div>
+					<p class="form-hint" id="wishHint" role="status"></p>
+				</form>
+				<div class="saved-block">
+					<h3>已经写下的心愿</h3>
+					<div class="note-list" id="wishList"></div>
+				</div>
+			</div>
+		</div>
+		<!-- 出游日历 -->
+		<div id="date">
+			<div class="calendar-section">
+				<h2>🗓️ 我的出游日历</h2>
+				<div class="calendar-head">
+					<button type="button" id="prevMonth">‹ 上个月</button>
+					<span id="calendarTitle">2026年10月</span>
+					<button type="button" id="nextMonth">下个月 ›</button>
+				</div>
+				<table class="calendar-table">
+					<thead>
+						<tr><td>日</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td></tr>
+					</thead>
+					<tbody id="calendarBody"></tbody>
+				</table>
+				<p class="calendar-note" id="calendarNote">点选一个日期，会同时写入上面的“计划出游日期”；这里只代表个人计划，不代表景区活动。</p>
+			</div>
+		</div>
+		<!-- 悬浮导航 -->
+		<div class="box">
+			<button class="box-toggle" type="button" aria-expanded="false" aria-controls="sideNav">导航</button>
+			<div id="sideNav" class="box-links">
+				<a href="../index.html">初见玉林</a>
+				<a href="home.html">漫游玉林</a>
+				<a href="detail.html">玉林风物</a>
+				<a href="message.html" class="active">旅人树屋</a>
+			</div>
+		</div>
+		<script src="../js/common.js"></script>
+		<script src="../js/message.js"></script>
+	</body>
+</html>

@@ -1,0 +1,527 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	/* 玉林五彩田园实景 + 柔和米白遮罩，保持比例、不重复 */
+	background-color: #f7f3e4;
+	background-image:
+		linear-gradient(rgba(249, 245, 233, 0.74), rgba(249, 245, 233, 0.74)),
+		url("../img/yulin/wucaitianyuan-01.jpg");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center 50%, center 55%;
+	background-size: cover, cover;
+	background-attachment: fixed, fixed;
+	overflow-x: hidden; /* 防止横向滚动条 */
+}
+#header {
+	width: 100%;
+}
+#header .message-header {
+	width: 1100px;
+	margin: 0 auto 34px;
+	padding: 24px 36px;
+	/* 与表单面板同色，保证文字在实景背景上清楚 */
+	background-color: #f7fff2;
+	border-radius: 0 0 18px 18px;
+	font-family: "微软雅黑";
+	box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+	color: #2f4028;
+	text-align: center;
+}
+#header .message-header p{
+	color: #3a4a33;
+}
+#header .message-header .storage-note{
+	color: #5f6f58;
+}
+#header .message-header h1 {
+	color: #4c7737;
+	font-size: 30px;
+	margin-bottom: 12px;
+}
+#header .message-header p{
+	line-height: 24px;
+	font-size: 16px;
+}
+
+#board1 {
+	width: 1200px;
+	margin: auto;
+	padding: 10px 100px;
+	/* background-color: rgba(255, 255, 255, 0.85); */
+}
+#board1 .form-section {
+	margin: 10px auto;
+	background-color: #f7fff2;
+	/* background-color: rgba(255, 255, 255, 0.9); */
+	border-radius: 20px;
+	padding: 30px 100px;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.1);
+}
+#board1 .form-section h2 {
+	text-align: center;
+	color: #4c7737;
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+#board1 .form-section .message-form{
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 40px;
+}
+#board1 .form-section .message-form .block1{
+	width: 500px;
+	float: left;
+}
+#board1 .form-section .message-form label {
+	padding: 30px;
+}
+#board1 .form-section .message-form input {
+	width: 335px;
+	margin: 10px auto;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board1 .form-section .message-form textarea {
+	width: 920px;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board1 .form-section .message-form .submit {
+	text-align: center;
+}
+#board1 .form-section .message-form button {
+	margin: 10px auto;
+	padding: 10px 40px;
+	font-size: 26px;
+	color: white;
+	background-color: #8cc269;
+	border: none;
+	border-radius: 20px;
+}
+#board1 .form-section .message-form button:hover {
+	background-color: #6ea24b;
+}
+
+#board2 {
+	width: 1200px;
+	margin: auto;
+	padding: 10px 100px;
+}
+#board2 .form-section {
+	margin: 10px auto;
+	background-color: #f7fff2;
+	/* background-color: rgba(255, 255, 255, 0.9); */
+	border-radius: 20px;
+	padding: 30px 100px;
+	box-shadow: 0 0.4vw 0.8vw rgba(0,0,0,0.1);
+}
+#board2 .form-section h2 {
+	text-align: center;
+	color: #4c7737;
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+#board2 .form-section .info-form{
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 40px;
+}
+#board2 .form-section .info-form fieldset {
+	border: none;
+	border-top: 2px solid #c9dca6;
+	margin: 20px 0;
+	padding: 20px 0;
+}
+#board2 .form-section .info-form fieldset legend {
+	font-weight: bold;
+	color: #4c7737;
+	font-size: 26px;
+}
+#board2 .form-section .info-form fieldset label {
+	padding: 30px;
+}
+#board2 .form-section .info-form .form1 fieldset .block1{
+	width: 500px;
+	float: left;
+}
+#board2 .form-section .info-form .form1 input {
+	width: 335px;
+	margin: 10px auto;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board2 .form-section .info-form .form1 select {
+	width: 375px;
+	margin: 10px auto;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board2 .form-section .info-form .form2 fieldset p {
+	width: 900px;
+	margin-left: 30px;
+	line-height: 40px;
+	font-size: 18px;
+}
+#board2 .form-section .info-form textarea {
+	width: 920px;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board2 .form-section .info-form select {
+	width: 100%;
+	margin: 10px auto;
+	padding: 20px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+#board2 .form-section .info-form .submit {
+	text-align: center;
+}
+#board2 .form-section .info-form button {
+	margin: 10px auto;
+	padding: 10px 40px;
+	font-size: 26px;
+	color: white;
+	background-color: #8cc269;
+	border: none;
+	border-radius: 20px;
+}
+#board2 .form-section .info-form button:hover {
+	background-color: #6ea24b;
+}
+
+#date {
+	width: 1200px;
+	margin: auto;
+	padding: 10px 100px;
+}
+#date .calendar-section {
+	margin: 10px auto;
+	background-color: #f7fff2;
+	/* background-color: rgba(255, 255, 255, 0.9); */
+	border-radius: 20px;
+	padding: 30px 100px;
+	box-shadow: 0 0.4vw 0.8vw rgba(0,0,0,0.1);
+}
+#date .calendar-section h2 {
+	text-align: center;
+	color: #4c7737;
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+#date .calendar-section .calendar-table {
+	width: 100%;
+	border-spacing: 0;
+	/* empty-cells: hide; */
+	text-align: center;
+}
+#date .calendar-section .calendar-table td {
+	border: 1px solid #ccc;
+	background-color: #e0f5e6;
+	padding: 20px;
+	font-size: 16px;
+	color: #333;
+} 
+#date .calendar-section .calendar-table .day {
+	border: 1px solid #ccc;
+	background-color: #c8f9d6;
+} 
+
+/* ---------- 留言、心愿与日历的补充样式（沿用原绿色系） ---------- */
+#header .message-header .storage-note{
+	font-size: 13px;
+	color: #6b7a63;
+	margin-top: 8px;
+}
+#board1 .form-section .message-form .block1{
+	width: 100%;
+	float: none;
+	text-align: center;
+	margin-bottom: 8px;
+}
+#board1 .form-section .message-form .block1 label{
+	padding: 0 10px 0 0;
+}
+#board1 .form-section .message-form .block1 input{
+	width: 60%;
+	max-width: 420px;
+	padding: 14px 18px;
+	box-sizing: border-box;
+}
+#board1 .form-section .message-form .block2 label{
+	display: block;
+	margin-left: 0;
+	padding: 10px 0 6px;
+	text-align: left;
+}
+#board1 .form-section .message-form .block2 textarea{
+	width: 100%;
+	margin-left: 0;
+	box-sizing: border-box;
+}
+#board1 .form-section .message-form::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.wish-form .form1 fieldset::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#board2 .form-section .info-form.wish-form .form1 fieldset .block1{
+	width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+	padding: 0 8px;
+}
+#board2 .form-section .info-form.wish-form .form1 fieldset .block1 input{
+	width: 100%;
+	box-sizing: border-box;
+}
+#board2 .form-section .info-form.wish-form .form1 fieldset .block1 label{
+	display: block;
+	padding: 0 0 6px;
+	font-size: 15px;
+}
+.wish-form .form1 fieldset .block1 label{
+	display: block;
+	padding: 0 0 6px;
+}
+.wish-form .form1 fieldset .block1 input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 14px 16px;
+}
+#board2 .form-section .info-form.wish-form .form3 textarea{
+	width: 100%;
+	margin-left: 0;
+	box-sizing: border-box;
+}
+.form-hint{
+	min-height: 22px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #b3543f;
+}
+.form-hint.ok{
+	color: #4c7737;
+}
+.saved-block{
+	margin-top: 26px;
+	border-top: 2px solid #c9dca6;
+	padding-top: 18px;
+}
+.saved-block h3{
+	font-size: 20px;
+	color: #4c7737;
+	text-align: center;
+	margin-bottom: 14px;
+}
+.note-list{
+	display: grid;
+	gap: 12px;
+}
+.note-item{
+	position: relative;
+	background-color: #ffffff;
+	border: 1px solid #d8e8c6;
+	border-radius: 12px;
+	padding: 14px 48px 14px 16px;
+	text-align: left;
+	line-height: 1.7;
+}
+.note-item .note-meta{
+	font-size: 13px;
+	color: #4c7737;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.note-item .note-text{
+	font-size: 14px;
+	color: #444;
+	word-break: break-word;
+	white-space: pre-wrap;
+}
+.note-item .note-del{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 4px 10px;
+	font-size: 12px;
+	color: #8a5b3d;
+	background-color: #f7fff2;
+	border: 1px solid #c9dca6;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.note-item .note-del:hover{
+	background-color: #e8f5e9;
+}
+.empty-tip{
+	font-size: 14px;
+	color: #7d8a75;
+	text-align: center;
+	padding: 10px 0;
+}
+.calendar-head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 18px;
+	margin-bottom: 16px;
+}
+.calendar-head button{
+	padding: 8px 16px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #4c7737;
+	background-color: #ffffff;
+	border: 1px solid #8cc269;
+	border-radius: 18px;
+	cursor: pointer;
+}
+.calendar-head button:hover{
+	background-color: #e8f5e9;
+}
+#calendarTitle{
+	font-size: 20px;
+	font-weight: bold;
+	color: #4c7737;
+	min-width: 150px;
+	text-align: center;
+}
+#date .calendar-section .calendar-table td{
+	cursor: pointer;
+	user-select: none;
+}
+#date .calendar-section .calendar-table td.empty{
+	background-color: transparent;
+	border-color: transparent;
+	cursor: default;
+}
+#date .calendar-section .calendar-table td.today{
+	border: 2px solid #e08a4b;
+}
+#date .calendar-section .calendar-table td.selected{
+	background-color: #8cc269;
+	color: #ffffff;
+	font-weight: bold;
+}
+#date .calendar-section .calendar-table td.has-wish{
+	box-shadow: inset 0 -5px 0 #e08a4b;
+}
+.calendar-note{
+	margin-top: 14px;
+	font-size: 13px;
+	color: #5f6f58;
+	line-height: 1.7;
+	text-align: center;
+}
+
+/* ================= 手机端适配（电脑端不受影响） ================= */
+@media (max-width: 820px) {
+	body{
+		/* 手机端避免 fixed 背景在 iOS 上的缩放/滚动异常 */
+		background-attachment: scroll, scroll;
+		background-position: center 42%, center 48%;
+	}
+	#header .message-header{
+		width: auto;
+		margin: 0 12px 18px;
+		padding: 18px 16px;
+		border-radius: 0 0 16px 16px;
+	}
+	#header .message-header h1{
+		font-size: 22px;
+	}
+	#header .message-header p{
+		font-size: 14px;
+		line-height: 1.7;
+	}
+	#board1,
+	#board2,
+	#date{
+		width: auto;
+		max-width: 100%;
+		padding: 8px 12px;
+		box-sizing: border-box;
+	}
+	#board1 .form-section,
+	#board2 .form-section,
+	#date .calendar-section{
+		padding: 20px 14px;
+	}
+	#board1 .form-section h2,
+	#board2 .form-section h2,
+	#date .calendar-section h2{
+		font-size: 22px;
+	}
+	#board1 .form-section .message-form{
+		font-size: 15px;
+	}
+	#board1 .form-section .message-form .block1 input{
+		width: 100%;
+		max-width: 100%;
+		padding: 12px 14px;
+	}
+	#board1 .form-section .message-form .block2 textarea,
+	#board2 .form-section .info-form textarea{
+		width: 100%;
+		padding: 12px 14px;
+		font-size: 15px;
+	}
+	#board2 .form-section .info-form{
+		font-size: 15px;
+	}
+	#board2 .form-section .info-form .form1 fieldset .block1,
+	#board2 .form-section .info-form.wish-form .form1 fieldset .block1{
+		width: 100%;
+		float: none;
+		padding: 0;
+		margin-bottom: 12px;
+	}
+	#board2 .form-section .info-form .form1 input{
+		width: 100%;
+		padding: 12px 14px;
+	}
+	#board2 .form-section .info-form fieldset legend{
+		font-size: 20px;
+	}
+	.calendar-head{
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+	.calendar-head button{
+		padding: 6px 12px;
+		font-size: 13px;
+	}
+	#calendarTitle{
+		font-size: 17px;
+		min-width: 120px;
+	}
+	#date .calendar-section .calendar-table td{
+		padding: 9px 2px;
+		font-size: 13px;
+	}
+	.note-item{
+		padding: 12px 42px 12px 12px;
+	}
+}
