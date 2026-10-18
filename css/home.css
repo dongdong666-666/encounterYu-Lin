@@ -218,36 +218,64 @@ body{
 	left: 6%;
 }
 
-/* ================= 手机端：沿小路上下展开的竖向场景 ================= */
+/* ================= 手机端：同画风竖版插画与独立场景热区 ================= */
 @media (max-width: 820px) {
 	body,
 	body.page-roam{
-		background-color: #f4f1df;
+		background-color: #f5f9ed;
 	}
-	/* 手机端取消电脑导航预留区，恢复全宽 */
 	.page-roam #main-body{
 		width: 100%;
 		margin-left: 0;
-	}
-	.page-roam .box{
-		width: auto;
-		left: 12px;
-		top: 12px;
-		transform: none;
-		background: transparent;
-		box-shadow: none;
-	}
-	.page-roam .box a{
-		font-size: 16px;
-		line-height: normal;
-		padding: 10px 0;
-		margin: 6px 10px;
-	}
-	#main-body{
 		display: flex;
 		flex-direction: column;
 		overflow: visible;
-		background-color: #f4f1df;
+		background-color: #f5f9ed;
+	}
+	.page-roam .box{
+		width: auto;
+		left: max(12px, env(safe-area-inset-left));
+		top: max(12px, env(safe-area-inset-top));
+		transform: none;
+		background: transparent;
+		box-shadow: none;
+		z-index: 1000;
+	}
+	.page-roam .box-toggle{
+		min-width: 76px;
+		min-height: 44px;
+		padding: 9px 16px;
+		color: #31573b;
+		background-color: #d9edc9;
+		border: 1px solid #b6d49f;
+		box-shadow: 0 3px 10px rgba(64, 96, 53, 0.12);
+		font-weight: 600;
+	}
+	.page-roam .box-links{
+		width: 156px;
+		max-height: calc(100dvh - 80px);
+		overflow-y: auto;
+		background-color: #e3f1d7;
+		border: 1px solid #c3d9b3;
+		box-shadow: 0 8px 24px rgba(49, 87, 59, 0.16);
+	}
+	.page-roam .box a{
+		min-height: 44px;
+		box-sizing: border-box;
+		font-size: 16px;
+		line-height: 24px;
+		padding: 10px 0;
+		margin: 6px 8px;
+		color: #355a3a;
+	}
+	.page-roam .box a.active{
+		background: #fffef6;
+		color: #31573b;
+	}
+	.page-roam .box-toggle:focus-visible,
+	.page-roam .box a:focus-visible{
+		outline: 3px solid #4c7737;
+		outline-offset: 2px;
 	}
 	#main-body .my-content{
 		position: static;
@@ -263,60 +291,69 @@ body{
 		width: 100%;
 		max-width: none;
 		margin: 0;
-		padding: 56px 18px 14px 18px;
-		background-color: #f7f3e4;
-		border-radius: 0 0 20px 20px;
+		padding: 70px 12px 18px;
+		background: linear-gradient(#f8fbf1, #f2f8ee);
+		border-radius: 0;
 		box-sizing: border-box;
 		text-align: center;
 		animation: none;
 		text-shadow: none;
 	}
 	#main-body .my-content .my-information h2{
-		font-size: 18px;
-		line-height: 1.6;
-		padding: 0 0 4px 0;
-		color: #3f5a2f;
+		font-size: clamp(21px, 5.6vw, 27px);
+		line-height: 1.5;
+		padding: 0 0 8px;
+		color: #31573b;
+		letter-spacing: 0.04em;
 	}
 	#main-body .my-content .my-information p{
-		font-size: 13.5px;
-		line-height: 1.75;
-		color: #3f5a2f;
+		font-family: "微软雅黑", sans-serif;
+		font-size: 13px;
+		line-height: 1.8;
+		color: #48684b;
+	}
+	#main-body .my-content .my-information p + p{
+		margin-top: 3px;
+		font-size: 12px;
+		color: #5b745c;
 	}
 	#main-body .scene{
 		order: 2;
+		background: #f2f8ee;
+	}
+	/* 热区只以图片为定位基准，页脚注记不影响百分比坐标。 */
+	.scene-art{
+		position: relative;
+		line-height: 0;
+	}
+	.scene .scene-bg{
+		aspect-ratio: 2 / 3;
 	}
 	.scene-note{
-		right: 8px;
-		bottom: 6px;
-		font-size: 10.5px;
-		padding: 3px 8px;
+		position: static;
+		margin: 0;
+		padding: 12px 10px max(14px, env(safe-area-inset-bottom));
+		border-radius: 0;
+		background: #f2f8ee;
+		font-family: "微软雅黑", sans-serif;
+		font-size: 11px;
+		line-height: 1.6;
+		text-align: center;
+		color: #5b745c;
 	}
-	/* 手机端保留现有竖版 SVG 入口的图标徽章 */
-	.scene a,
-	.scene .sport,
-	.scene .reading,
-	.scene .music,
-	.scene .folk,
-	.scene .photo{
-		height: auto;
-		padding: 5px;
-		background-color: rgba(255, 250, 236, 0.94);
-		border: 2px solid #6b4a35;
-		border-radius: 18px;
-		box-shadow: 0 6px 12px rgba(70, 80, 50, 0.2);
-	}
-	.scene a:hover{
-		background-color: #fffdf4;
-		box-shadow: 0 8px 16px rgba(70, 80, 50, 0.26);
+	/* 保留整片场景可点，但不再用大图标、色块盖住插画。 */
+	.scene a{
+		min-width: 44px;
+		min-height: 44px;
+		border-radius: 14px;
+		-webkit-tap-highlight-color: rgba(128, 174, 105, 0.15);
 	}
 	.scene a img{
-		display: block;
-		width: 100%;
-		height: auto;
-		transition: transform 0.3s ease;
+		display: none;
 	}
-	.scene a:hover img{
-		transform: scale(1.08);
+	.scene a:focus-visible{
+		outline: 2px solid #4c7737;
+		outline-offset: 2px;
 	}
 	.scene a .entry-label,
 	.scene .sport .entry-label,
@@ -324,42 +361,56 @@ body{
 	.scene .music .entry-label,
 	.scene .folk .entry-label,
 	.scene .photo .entry-label{
-		top: 100%;
-		left: 50%;
-		transform: translateX(-50%);
-		margin-top: 3px;
-		font-size: 12px;
-		padding: 5px 9px;
-		border-width: 1.5px;
-		pointer-events: auto;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 6px;
+		min-height: 44px;
+		box-sizing: border-box;
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 6px 11px;
+		border: 1px solid #b7cfa2;
+		border-radius: 22px;
+		background: rgba(255, 254, 244, 0.96);
+		color: #31573b;
+		font-size: 13px;
+		line-height: 20px;
+		font-weight: 600;
+		transform: none;
+		box-shadow: 0 3px 10px rgba(49, 87, 59, 0.14);
+	}
+	.scene a .entry-label::after{
+		content: "›";
+		font-size: 18px;
+		font-weight: 400;
+		color: #668854;
 	}
 	.scene a:hover .entry-label,
 	.scene a:focus-visible .entry-label{
-		transform: translateX(-50%) scale(1.06);
+		transform: translateY(-2px);
+		background: #f1f9e7;
 	}
-	.scene .sport{
-		left: 5%;
-		top: 15%;
-		width: 20%;
+	/* 与 1024×1536 竖版 PNG 的五处主体分别校准，区域互不重叠。 */
+	.scene .sport{ left: 12%; top: 9%; width: 76%; height: 13%; }
+	.scene .reading{ left: 10%; top: 23%; width: 45%; height: 17%; }
+	.scene .music{ left: 58%; top: 44%; width: 39%; height: 18%; }
+	.scene .folk{ left: 5%; top: 55%; width: 49%; height: 27%; }
+	.scene .photo{ left: 54%; top: 77%; width: 43%; height: 18%; }
+	.scene .sport .entry-label{ left: 52%; top: 5%; }
+	.scene .reading .entry-label{ left: 0; top: 0; }
+	.scene .music .entry-label{ left: 0; top: 0; }
+	.scene .folk .entry-label{ left: 0; top: 0; }
+	.scene .photo .entry-label{ left: 0; top: 0; }
+}
+@media (prefers-reduced-motion: reduce) and (max-width: 820px) {
+	.scene a,
+	.scene a .entry-label{
+		transition: none;
 	}
-	.scene .reading{
-		left: 6%;
-		top: 34%;
-		width: 16%;
-	}
-	.scene .music{
-		left: 5%;
-		top: 47%;
-		width: 17%;
-	}
-	.scene .folk{
-		left: 62%;
-		top: 61%;
-		width: 17%;
-	}
-	.scene .photo{
-		left: 40%;
-		top: 76%;
-		width: 17%;
+	.scene a:hover .entry-label,
+	.scene a:focus-visible .entry-label{
+		transform: none;
 	}
 }
