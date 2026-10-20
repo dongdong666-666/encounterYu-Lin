@@ -64,7 +64,7 @@ body {
 	text-align: center;
 	margin: 20px auto;
 }
-/* “五彩田园”四个字分别用红、橙、绿、蓝，其余文字保持白色 */
+/* “广西玉林”四个字沿用红、橙、绿、蓝强调色，其余文字保持白色 */
 #bkground .my-information p .colorful{
 	display: inline-block;
 	font-size: 19px;
