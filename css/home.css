@@ -5,6 +5,14 @@ html,body{
 body{
 	background-color: #f4f1df;
 }
+/* 漫游页整页背景：沿用首页那张玉林五彩田园实景图 */
+body.page-roam{
+	background-image: url("../img/yulin/wucaitianyuan-01.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
 /* 电脑端：左侧留出导航专属区域，右侧画布按剩余宽度等比显示 */
 @media (min-width: 821px) {
 	body.page-roam{
@@ -13,6 +21,9 @@ body{
 	.page-roam #main-body{
 		width: 100%;
 		margin-left: 0;
+		/* 留出四周空隙，让整页实景背景透出来 */
+		padding: 2.4vw;
+		box-sizing: border-box;
 	}
 	.page-roam .box{
 		width: 154px;
@@ -47,7 +58,7 @@ body{
 	z-index: 1;
 	width: 100%;
 	line-height: 0;
-	background-color: #eef2da;
+	background-color: transparent;
 }
 .scene picture{
 	display: block;
@@ -230,7 +241,9 @@ body{
 		display: flex;
 		flex-direction: column;
 		overflow: visible;
-		background-color: #f5f9ed;
+		background-color: transparent;
+		padding: 14px;
+		box-sizing: border-box;
 	}
 	.page-roam .box{
 		width: auto;
@@ -319,7 +332,7 @@ body{
 	}
 	#main-body .scene{
 		order: 2;
-		background: #f2f8ee;
+		background: transparent;
 	}
 	/* 热区只以图片为定位基准，页脚注记不影响百分比坐标。 */
 	.scene-art{
